@@ -228,6 +228,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -307,8 +309,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -323,10 +323,6 @@
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
 										<string>DecksViewController.m</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>09B0340F11401A43004A71E6</string>
 										<key>history</key>
 										<array>
 											<string>09B0340C11401A43004A71E6</string>
@@ -392,9 +388,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>09B0341011401A43004A71E6</string>
+				<string>09B03418114041F3004A71E6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>09B0341111401A43004A71E6</string>
+				<string>09B03419114041F3004A71E6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
