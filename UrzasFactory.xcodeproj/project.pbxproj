@@ -15,6 +15,17 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28C3AD8A0F43EF2300507BA6 /* UrzasFactory.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* UrzasFactory.xcdatamodel */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		5B05D42A1136FD360011D7F3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */; };
+		5B05D42B1136FD360011D7F3 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B05D4291136FD360011D7F3 /* MainView.xib */; };
+		5B05D42E1136FD620011D7F3 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B05D42D1136FD620011D7F3 /* Background.png */; };
+		5B05D431113701340011D7F3 /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B05D430113701340011D7F3 /* Title.png */; };
+		5B05D44B11371E1F0011D7F3 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B05D44A11371E1F0011D7F3 /* Button.png */; };
+		5B05D465113724BF0011D7F3 /* ButtonPushed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B05D464113724BF0011D7F3 /* ButtonPushed.png */; };
+		5B05D480113727250011D7F3 /* DecksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D47F113727250011D7F3 /* DecksViewController.m */; };
+		5B05D4B0113737F60011D7F3 /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B05D4AF113737F60011D7F3 /* Background2.png */; };
+		5B05D4D3113745030011D7F3 /* UFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D4D2113745030011D7F3 /* UFView.m */; };
+		5B5EC98E1138A2DD003DE3BE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5EC98D1138A2DD003DE3BE /* Icon.png */; };
+		5B5ECA281139B53C003DE3BE /* UFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5ECA271139B53C003DE3BE /* UFTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,21 @@
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* UrzasFactory_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrzasFactory_Prefix.pch; sourceTree = "<group>"; };
+		5B05D4271136FD360011D7F3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		5B05D4281136FD360011D7F3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		5B05D4291136FD360011D7F3 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		5B05D42D1136FD620011D7F3 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		5B05D430113701340011D7F3 /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		5B05D44A11371E1F0011D7F3 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		5B05D464113724BF0011D7F3 /* ButtonPushed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonPushed.png; sourceTree = "<group>"; };
+		5B05D47E113727250011D7F3 /* DecksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecksViewController.h; sourceTree = "<group>"; };
+		5B05D47F113727250011D7F3 /* DecksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecksViewController.m; sourceTree = "<group>"; };
+		5B05D4AF113737F60011D7F3 /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background2.png; sourceTree = "<group>"; };
+		5B05D4D1113745030011D7F3 /* UFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFView.h; path = Classes/UFView.h; sourceTree = "<group>"; };
+		5B05D4D2113745030011D7F3 /* UFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFView.m; path = Classes/UFView.m; sourceTree = "<group>"; };
+		5B5EC98D1138A2DD003DE3BE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5B5ECA261139B53C003DE3BE /* UFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFTableViewController.h; sourceTree = "<group>"; };
+		5B5ECA271139B53C003DE3BE /* UFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFTableViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* UrzasFactory-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UrzasFactory-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +76,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B05D4271136FD360011D7F3 /* MainViewController.h */,
+				5B05D4281136FD360011D7F3 /* MainViewController.m */,
+				5B05D47E113727250011D7F3 /* DecksViewController.h */,
+				5B05D47F113727250011D7F3 /* DecksViewController.m */,
 				1D3623240D0F684500981E51 /* UrzasFactoryAppDelegate.h */,
 				1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */,
 			);
@@ -67,6 +97,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5B5EC9EC1139ACB0003DE3BE /* Base Classes */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -88,7 +119,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B05D42C1136FD620011D7F3 /* Images */,
 				28C3AD890F43EF2300507BA6 /* UrzasFactory.xcdatamodel */,
+				5B05D4291136FD360011D7F3 /* MainView.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* UrzasFactory-Info.plist */,
 			);
@@ -104,6 +137,30 @@
 				28D801B30F44B63D00FB423F /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B05D42C1136FD620011D7F3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5B5EC98D1138A2DD003DE3BE /* Icon.png */,
+				5B05D44A11371E1F0011D7F3 /* Button.png */,
+				5B05D464113724BF0011D7F3 /* ButtonPushed.png */,
+				5B05D42D1136FD620011D7F3 /* Background.png */,
+				5B05D4AF113737F60011D7F3 /* Background2.png */,
+				5B05D430113701340011D7F3 /* Title.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5B5EC9EC1139ACB0003DE3BE /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B05D4D1113745030011D7F3 /* UFView.h */,
+				5B05D4D2113745030011D7F3 /* UFView.m */,
+				5B5ECA261139B53C003DE3BE /* UFTableViewController.h */,
+				5B5ECA271139B53C003DE3BE /* UFTableViewController.m */,
+			);
+			name = "Base Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +206,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				5B05D42B1136FD360011D7F3 /* MainView.xib in Resources */,
+				5B05D42E1136FD620011D7F3 /* Background.png in Resources */,
+				5B05D431113701340011D7F3 /* Title.png in Resources */,
+				5B05D44B11371E1F0011D7F3 /* Button.png in Resources */,
+				5B05D465113724BF0011D7F3 /* ButtonPushed.png in Resources */,
+				5B05D4B0113737F60011D7F3 /* Background2.png in Resources */,
+				5B5EC98E1138A2DD003DE3BE /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +226,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* UrzasFactoryAppDelegate.m in Sources */,
 				28C3AD8A0F43EF2300507BA6 /* UrzasFactory.xcdatamodel in Sources */,
+				5B05D42A1136FD360011D7F3 /* MainViewController.m in Sources */,
+				5B05D480113727250011D7F3 /* DecksViewController.m in Sources */,
+				5B05D4D3113745030011D7F3 /* UFView.m in Sources */,
+				5B5ECA281139B53C003DE3BE /* UFTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

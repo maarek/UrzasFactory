@@ -7,20 +7,23 @@
 //
 
 #import "UrzasFactoryAppDelegate.h"
-
+#import "MainViewController.h"
 
 @implementation UrzasFactoryAppDelegate
 
-@synthesize window;
+@synthesize window, navigationController;
 
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
     // Override point for customization after app launch    
-
+//	MainViewController * viewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
+	self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.0/255.0 green:51.0/255.0 blue:102.0/255.0 alpha:1.0];
+	self.navigationController.navigationBarHidden = YES;
+	[window addSubview:navigationController.view];
 	[window makeKeyAndVisible];
 }
 
