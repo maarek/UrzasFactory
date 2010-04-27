@@ -15,7 +15,8 @@
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
      	UIImageView * backgroundView = [[UIImageView alloc] initWithFrame:frame];
-		[backgroundView setImage:[UIImage imageNamed:@"Background2.png"]];
+		backgroundView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backdropBottom.png"]];
+		//[backgroundView setImage:[UIImage imageNamed:@"backdropBottom.png"]];
 		backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
 		[self addSubview:backgroundView];
 		[backgroundView release];

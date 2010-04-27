@@ -8,6 +8,7 @@
 
 #import "LibraryPortraitViewController.h"
 #import "LibraryLandscapeViewController.h"
+#import "UFView.h"
 
 @implementation LibraryPortraitViewController
 
@@ -24,8 +25,10 @@
 
 
 - (void)viewDidLoad {
-	
-    self.view.backgroundColor = [UIColor colorWithRed:197.0/255.0 green:204.0/255.0 blue:211.0/255.0 alpha:1.0];
+	UFView * deckView = [[UFView alloc] initWithFrame:self.navigationController.view.frame];
+	self.view = deckView;
+	[deckView release];
+
 	
     LibraryLandscapeViewController *viewController = [[LibraryLandscapeViewController alloc]
 											   initWithNibName:@"LibraryLandscapeView" bundle:nil];
@@ -35,6 +38,8 @@
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationChanged:)
 												 name:UIDeviceOrientationDidChangeNotification object:nil];
+	
+	
 	
 	// Display navigation bar for this view controller.
 	[self.navigationController setNavigationBarHidden:NO];

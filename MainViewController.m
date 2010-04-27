@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "DecksViewController.h"
 #import "LibraryPortraitViewController.h"
+#import "CreditsViewController.h"
 
 @implementation MainViewController
 
@@ -21,6 +22,10 @@
 		[viewController release];
 	} else if (sender == libraryButton) {
 		LibraryPortraitViewController * viewController = [[LibraryPortraitViewController alloc] init];
+		[self.navigationController pushViewController:viewController animated:YES];
+		[viewController	release];
+	} else if (sender == creditsButton) {
+		CreditsViewController * viewController = [[CreditsViewController alloc] init];
 		[self.navigationController pushViewController:viewController animated:YES];
 		[viewController	release];
 	}

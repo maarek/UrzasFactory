@@ -59,6 +59,9 @@ const static CGFloat kReflectionFraction = 0.85;
 	scrollView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	[self addSubview:scrollView];
 	
+	// Set up the background image for the coverflow JL
+	self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"awardback.jpg"]];
+	
 	self.multipleTouchEnabled = NO;
 	self.userInteractionEnabled = YES;
 	self.autoresizesSubviews = YES;

@@ -145,30 +145,51 @@
 		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
 		name = "MainViewController.m: 21";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 1090;
 		rType = 0;
 		vrLen = 1332;
 		vrLoc = 45;
 	};
+	09CCA0AA11868E4C008EFCA6 /* AFItemView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 559}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1544}";
+		};
+	};
 	09CCA0AB11868E4C008EFCA6 /* AFItemView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 1066}}";
+			sepNavIntBoundsRect = "{{0, 0}, {972, 1053}}";
 			sepNavSelRange = "{1269, 0}";
-			sepNavVisRange = "{0, 1520}";
+			sepNavVisRange = "{0, 1539}";
+		};
+	};
+	09CCA0AC11868E4C008EFCA6 /* AFOpenFlowConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1285}";
 		};
 	};
 	09CCA0AD11868E4C008EFCA6 /* AFOpenFlowView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {720, 1092}}";
-			sepNavSelRange = "{2624, 13}";
-			sepNavVisRange = "{2319, 413}";
+			sepNavIntBoundsRect = "{{0, 0}, {972, 1053}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{61, 1556}";
 		};
 	};
 	09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {964, 5759}}";
-			sepNavSelRange = "{14306, 1}";
-			sepNavVisRange = "{14976, 1279}";
+			sepNavIntBoundsRect = "{{0, 0}, {812, 5629}}";
+			sepNavSelRange = "{14456, 1}";
+			sepNavVisRange = "{14618, 1365}";
+		};
+	};
+	09CCA0AF11868E4C008EFCA6 /* AFUIImageReflection.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1284}";
 		};
 	};
 	09CCA0CD11868E9F008EFCA6 /* PBXTextBookmark */ = {
@@ -176,7 +197,7 @@
 		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
 		name = "MainViewController.m: 21";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 1090;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 45;
@@ -399,45 +420,53 @@
 		fRef = 5B05D4D2113745030011D7F3 /* UFView.m */;
 		name = "UFView.m: 28";
 		rLen = 0;
-		rLoc = 660;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 713;
 		vrLoc = 0;
 	};
 	09CCA0DE11868F23008EFCA6 /* LibraryLandscapeView.xib */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 5993}}";
+			sepNavIntBoundsRect = "{{0, 0}, {972, 6123}}";
 			sepNavSelRange = "{302, 0}";
-			sepNavVisRange = "{4630, 1481}";
+			sepNavVisRange = "{4524, 1516}";
 		};
 	};
 	09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
-			sepNavSelRange = "{381, 0}";
-			sepNavVisRange = "{0, 535}";
+			sepNavIntBoundsRect = "{{0, 0}, {803, 591}}";
+			sepNavSelRange = "{350, 0}";
+			sepNavVisRange = "{0, 516}";
+			sepNavWindowFrame = "{{38, 33}, {653, 719}}";
 		};
 	};
 	09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1279, 1222}}";
-			sepNavSelRange = "{326, 0}";
-			sepNavVisRange = "{0, 1240}";
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 1261}}";
+			sepNavSelRange = "{517, 0}";
+			sepNavVisRange = "{0, 1109}";
 			sepNavWindowFrame = "{{38, 33}, {653, 719}}";
 		};
+	};
+	09CCA0EF118692B1008EFCA6 /* 0.jpg */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.jpeg;
+		name = 0.jpg;
+		path = /Users/luminare/Documents/UrzasFactory/0.jpg;
+		sourceTree = "<absolute>";
 	};
 	09CCA12C11869322008EFCA6 /* AFGetImageOperation.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
-			sepNavSelRange = "{1357, 46}";
+			sepNavSelRange = "{1353, 0}";
 			sepNavVisRange = "{0, 1511}";
 		};
 	};
 	09CCA12D11869322008EFCA6 /* AFGetImageOperation.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {957, 975}}";
-			sepNavSelRange = "{1561, 0}";
-			sepNavVisRange = "{1502, 196}";
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1001}}";
+			sepNavSelRange = "{1778, 0}";
+			sepNavVisRange = "{658, 1215}";
 			sepNavWindowFrame = "{{38, 33}, {653, 719}}";
 		};
 	};
@@ -465,9 +494,9 @@
 	};
 	09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1069, 2431}}";
-			sepNavSelRange = "{1785, 0}";
-			sepNavVisRange = "{1238, 1510}";
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 2509}}";
+			sepNavSelRange = "{959, 0}";
+			sepNavVisRange = "{3, 1274}";
 		};
 	};
 	09CCA143118699E0008EFCA6 /* PBXTextBookmark */ = {
@@ -475,7 +504,7 @@
 		fRef = 5B05D4D2113745030011D7F3 /* UFView.m */;
 		name = "UFView.m: 28";
 		rLen = 0;
-		rLoc = 660;
+		rLoc = 776;
 		rType = 0;
 		vrLen = 713;
 		vrLoc = 0;
@@ -596,7 +625,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 167";
 		rLen = 0;
-		rLoc = 6338;
+		rLoc = 6381;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 0;
@@ -616,7 +645,7 @@
 		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
 		name = "MainViewController.m: 12";
 		rLen = 0;
-		rLoc = 248;
+		rLoc = 282;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 0;
@@ -626,7 +655,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 22";
 		rLen = 0;
-		rLoc = 534;
+		rLoc = 515;
 		rType = 0;
 		vrLen = 528;
 		vrLoc = 0;
@@ -646,7 +675,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 37";
 		rLen = 0;
-		rLoc = 1064;
+		rLoc = 1040;
 		rType = 0;
 		vrLen = 1420;
 		vrLoc = 800;
@@ -676,7 +705,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 86";
 		rLen = 0;
-		rLoc = 3816;
+		rLoc = 3859;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 0;
@@ -745,7 +774,7 @@
 		isa = PBXTextBookmark;
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		rLen = 13;
-		rLoc = 876;
+		rLoc = 915;
 		rType = 0;
 	};
 	09CCA17C11869BF6008EFCA6 /* PBXTextBookmark */ = {
@@ -753,7 +782,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 31";
 		rLen = 0;
-		rLoc = 876;
+		rLoc = 915;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 629;
@@ -783,7 +812,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 86";
 		rLen = 0;
-		rLoc = 3816;
+		rLoc = 3859;
 		rType = 0;
 		vrLen = 1368;
 		vrLoc = 39;
@@ -870,7 +899,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 86";
 		rLen = 0;
-		rLoc = 3816;
+		rLoc = 3859;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 156;
@@ -988,7 +1017,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 19";
 		rLen = 0;
-		rLoc = 459;
+		rLoc = 440;
 		rType = 0;
 		vrLen = 534;
 		vrLoc = 0;
@@ -998,7 +1027,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 78";
 		rLen = 0;
-		rLoc = 2971;
+		rLoc = 2947;
 		rType = 0;
 		vrLen = 1520;
 		vrLoc = 1848;
@@ -1008,7 +1037,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 66";
 		rLen = 0;
-		rLoc = 2409;
+		rLoc = 2385;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 1965;
@@ -1018,7 +1047,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 42";
 		rLen = 0;
-		rLoc = 1541;
+		rLoc = 1517;
 		rType = 0;
 		vrLen = 1638;
 		vrLoc = 575;
@@ -1028,7 +1057,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 76";
 		rLen = 0;
-		rLoc = 2610;
+		rLoc = 2586;
 		rType = 0;
 		vrLen = 1471;
 		vrLoc = 1965;
@@ -1038,7 +1067,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2610;
+		rLoc = 2586;
 		rType = 0;
 		vrLen = 1406;
 		vrLoc = 1969;
@@ -1048,7 +1077,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 77";
 		rLen = 335;
-		rLoc = 2636;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 1969;
@@ -1058,7 +1087,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 70";
 		rLen = 0;
-		rLoc = 2635;
+		rLoc = 2611;
 		rType = 0;
 		vrLen = 1353;
 		vrLoc = 1694;
@@ -1088,7 +1117,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 73";
 		rLen = 0;
-		rLoc = 2768;
+		rLoc = 2744;
 		rType = 0;
 		vrLen = 1542;
 		vrLoc = 1694;
@@ -1098,7 +1127,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 2888;
 		rType = 0;
 		vrLen = 1463;
 		vrLoc = 1784;
@@ -1108,7 +1137,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 73";
 		rLen = 0;
-		rLoc = 2768;
+		rLoc = 2744;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 1852;
@@ -1118,7 +1147,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2910;
+		rLoc = 2886;
 		rType = 0;
 		vrLen = 1408;
 		vrLoc = 1883;
@@ -1128,7 +1157,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
 		rLen = 0;
-		rLoc = 1032;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1327;
 		vrLoc = 1968;
@@ -1138,7 +1167,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 74";
 		rLen = 0;
-		rLoc = 2768;
+		rLoc = 2744;
 		rType = 0;
 		vrLen = 1331;
 		vrLoc = 1968;
@@ -1148,7 +1177,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 2888;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 1884;
@@ -1178,7 +1207,7 @@
 		fRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */;
 		name = "AFOpenFlowView.m: 106";
 		rLen = 0;
-		rLoc = 4227;
+		rLoc = 4377;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 10826;
@@ -1187,7 +1216,7 @@
 		isa = PBXTextBookmark;
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		rLen = 0;
-		rLoc = 74;
+		rLoc = 76;
 		rType = 1;
 	};
 	09CCA2331186C552008EFCA6 /* PBXTextBookmark */ = {
@@ -1195,7 +1224,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 72";
 		rLen = 0;
-		rLoc = 2810;
+		rLoc = 2786;
 		rType = 0;
 		vrLen = 1502;
 		vrLoc = 1697;
@@ -1205,7 +1234,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 15";
 		rLen = 0;
-		rLoc = 394;
+		rLoc = 375;
 		rType = 0;
 		vrLen = 522;
 		vrLoc = 0;
@@ -1215,7 +1244,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 30";
 		rLen = 0;
-		rLoc = 1042;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 158;
@@ -1225,7 +1254,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 31";
 		rLen = 0;
-		rLoc = 921;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 158;
@@ -1235,7 +1264,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 31";
 		rLen = 0;
-		rLoc = 921;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1607;
 		vrLoc = 158;
@@ -1245,7 +1274,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 31";
 		rLen = 0;
-		rLoc = 921;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 158;
@@ -1255,7 +1284,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 16";
 		rLen = 0;
-		rLoc = 394;
+		rLoc = 375;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 0;
@@ -1265,7 +1294,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 31";
 		rLen = 0;
-		rLoc = 921;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1651;
 		vrLoc = 309;
@@ -1275,7 +1304,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 32";
 		rLen = 0;
-		rLoc = 921;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1664;
 		vrLoc = 309;
@@ -1285,7 +1314,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 32";
 		rLen = 0;
-		rLoc = 921;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 309;
@@ -1295,7 +1324,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 32";
 		rLen = 0;
-		rLoc = 921;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 412;
@@ -1305,7 +1334,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 78";
 		rLen = 0;
-		rLoc = 2759;
+		rLoc = 2735;
 		rType = 0;
 		vrLen = 1499;
 		vrLoc = 2007;
@@ -1315,7 +1344,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 16";
 		rLen = 0;
-		rLoc = 394;
+		rLoc = 375;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 0;
@@ -1325,7 +1354,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 92";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3241;
 		rType = 0;
 		vrLen = 1523;
 		vrLoc = 2007;
@@ -1335,7 +1364,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 93";
 		rLen = 0;
-		rLoc = 3285;
+		rLoc = 3241;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 2163;
@@ -1345,7 +1374,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 31";
 		rLen = 0;
-		rLoc = 807;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 0;
@@ -1355,7 +1384,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 35";
 		rLen = 0;
-		rLoc = 1040;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 2214;
@@ -1365,7 +1394,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 35";
 		rLen = 0;
-		rLoc = 1040;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 2214;
@@ -1375,7 +1404,7 @@
 		fRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */;
 		name = "AFOpenFlowView.m: 106";
 		rLen = 0;
-		rLoc = 4227;
+		rLoc = 4377;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 10826;
@@ -1384,7 +1413,7 @@
 		isa = PBXTextBookmark;
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		rLen = 0;
-		rLoc = 73;
+		rLoc = 75;
 		rType = 1;
 	};
 	09CCA2751186CB6E008EFCA6 /* PBXTextBookmark */ = {
@@ -1392,7 +1421,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 31";
 		rLen = 0;
-		rLoc = 807;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 57;
@@ -1402,7 +1431,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 31";
 		rLen = 0;
-		rLoc = 807;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1626;
 		vrLoc = 227;
@@ -1412,7 +1441,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 31";
 		rLen = 0;
-		rLoc = 807;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1551;
 		vrLoc = 227;
@@ -1422,7 +1451,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 35";
 		rLen = 0;
-		rLoc = 1032;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 2213;
@@ -1432,7 +1461,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 78";
 		rLen = 0;
-		rLoc = 2659;
+		rLoc = 2635;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 2213;
@@ -1442,7 +1471,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 78";
 		rLen = 0;
-		rLoc = 2659;
+		rLoc = 2635;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 2213;
@@ -1452,7 +1481,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 80";
 		rLen = 0;
-		rLoc = 2892;
+		rLoc = 2868;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 2213;
@@ -1472,7 +1501,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 19";
 		rLen = 0;
-		rLoc = 443;
+		rLoc = 424;
 		rType = 0;
 		vrLen = 534;
 		vrLoc = 0;
@@ -1482,7 +1511,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 28";
 		rLen = 0;
-		rLoc = 809;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 1950;
@@ -1492,7 +1521,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
 		rLen = 0;
-		rLoc = 919;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1560;
 		vrLoc = 261;
@@ -1502,7 +1531,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2904;
+		rLoc = 2880;
 		rType = 0;
 		vrLen = 1476;
 		vrLoc = 1925;
@@ -1512,7 +1541,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 90";
 		rLen = 0;
-		rLoc = 3285;
+		rLoc = 3241;
 		rType = 0;
 		vrLen = 1476;
 		vrLoc = 1925;
@@ -1522,7 +1551,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 19";
 		rLen = 0;
-		rLoc = 443;
+		rLoc = 424;
 		rType = 0;
 		vrLen = 534;
 		vrLoc = 0;
@@ -1532,7 +1561,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 90";
 		rLen = 0;
-		rLoc = 3285;
+		rLoc = 3241;
 		rType = 0;
 		vrLen = 1413;
 		vrLoc = 1993;
@@ -1542,7 +1571,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 90";
 		rLen = 0;
-		rLoc = 3285;
+		rLoc = 3241;
 		rType = 0;
 		vrLen = 1408;
 		vrLoc = 1993;
@@ -1552,7 +1581,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2909;
+		rLoc = 2885;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 1993;
@@ -1562,7 +1591,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
 		rLen = 0;
-		rLoc = 919;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 57;
@@ -1572,7 +1601,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
 		rLen = 0;
-		rLoc = 919;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 57;
@@ -1582,7 +1611,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
 		rLen = 0;
-		rLoc = 919;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1305;
 		vrLoc = 57;
@@ -1591,8 +1620,8 @@
 		isa = PBXTextBookmark;
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
-		rLen = 17;
-		rLoc = 904;
+		rLen = 0;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 57;
@@ -1602,7 +1631,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 86";
 		rLen = 0;
-		rLoc = 3816;
+		rLoc = 3859;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 156;
@@ -1712,7 +1741,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 19";
 		rLen = 0;
-		rLoc = 443;
+		rLoc = 424;
 		rType = 0;
 		vrLen = 534;
 		vrLoc = 0;
@@ -1722,7 +1751,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 18";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 422;
 		rType = 0;
 		vrLen = 589;
 		vrLoc = 0;
@@ -1732,7 +1761,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 18";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 422;
 		rType = 0;
 		vrLen = 589;
 		vrLoc = 0;
@@ -1741,7 +1770,7 @@
 		isa = PBXTextBookmark;
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		rLen = 0;
-		rLoc = 29;
+		rLoc = 25;
 		rType = 1;
 	};
 	09CCA2EA1186D24E008EFCA6 /* PBXTextBookmark */ = {
@@ -1749,7 +1778,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
 		rLen = 0;
-		rLoc = 919;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1319;
 		vrLoc = 57;
@@ -1759,7 +1788,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
 		rLen = 0;
-		rLoc = 919;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1327;
 		vrLoc = 57;
@@ -1769,7 +1798,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 29";
 		rLen = 0;
-		rLoc = 919;
+		rLoc = 805;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 57;
@@ -1779,7 +1808,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 86";
 		rLen = 0;
-		rLoc = 3816;
+		rLoc = 3859;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 156;
@@ -1789,7 +1818,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 16";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 590;
 		vrLoc = 0;
@@ -1819,7 +1848,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 16";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 362;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 0;
@@ -1849,7 +1878,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2904;
+		rLoc = 2880;
 		rType = 0;
 		vrLen = 1506;
 		vrLoc = 1812;
@@ -1859,7 +1888,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 89";
 		rLen = 0;
-		rLoc = 3285;
+		rLoc = 3241;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 1900;
@@ -1869,7 +1898,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2892;
+		rLoc = 2868;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 1900;
@@ -1879,7 +1908,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2892;
+		rLoc = 2868;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 1900;
@@ -1889,7 +1918,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2892;
+		rLoc = 2868;
 		rType = 0;
 		vrLen = 1421;
 		vrLoc = 1900;
@@ -1899,7 +1928,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 73";
 		rLen = 1;
-		rLoc = 2635;
+		rLoc = 2611;
 		rType = 0;
 		vrLen = 1421;
 		vrLoc = 1900;
@@ -1909,7 +1938,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 75";
 		rLen = 0;
-		rLoc = 2905;
+		rLoc = 2881;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 1900;
@@ -1919,7 +1948,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 31";
 		rLen = 0;
-		rLoc = 876;
+		rLoc = 915;
 		rType = 0;
 		vrLen = 789;
 		vrLoc = 629;
@@ -1938,7 +1967,7 @@
 		isa = PBXTextBookmark;
 		fRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */;
 		rLen = 13;
-		rLoc = 10702;
+		rLoc = 10852;
 		rType = 0;
 	};
 	09CCA3291186DD82008EFCA6 /* PBXTextBookmark */ = {
@@ -1946,7 +1975,7 @@
 		fRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */;
 		name = "AFOpenFlowView.m: 396";
 		rLen = 1;
-		rLoc = 14306;
+		rLoc = 14456;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 14976;
@@ -1956,7 +1985,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 73";
 		rLen = 0;
-		rLoc = 2625;
+		rLoc = 2601;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 0;
@@ -1976,7 +2005,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 95";
 		rLen = 0;
-		rLoc = 3972;
+		rLoc = 4015;
 		rType = 0;
 		vrLen = 1395;
 		vrLoc = 289;
@@ -2160,7 +2189,7 @@
 		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
 		name = "MainViewController.m: 25";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 861;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 139;
@@ -2200,7 +2229,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 73";
 		rLen = 0;
-		rLoc = 2625;
+		rLoc = 2601;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 0;
@@ -2230,7 +2259,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 42";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 581;
@@ -2240,7 +2269,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 41";
 		rLen = 0;
-		rLoc = 1344;
+		rLoc = 1387;
 		rType = 0;
 		vrLen = 1270;
 		vrLoc = 581;
@@ -2250,7 +2279,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 40";
 		rLen = 0;
-		rLoc = 1290;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 1207;
 		vrLoc = 581;
@@ -2260,7 +2289,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 42";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 1308;
 		vrLoc = 600;
@@ -2270,7 +2299,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 47";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 604;
@@ -2280,7 +2309,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 53";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 1762;
 		rType = 0;
 		vrLen = 1422;
 		vrLoc = 604;
@@ -2290,7 +2319,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 48";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 1424;
 		vrLoc = 604;
@@ -2300,7 +2329,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 48";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 604;
@@ -2320,7 +2349,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 16";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 362;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 0;
@@ -2330,7 +2359,7 @@
 		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
 		name = "LibraryLandscapeViewController.m: 38";
 		rLen = 524;
-		rLoc = 1109;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 572;
@@ -2340,7 +2369,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 83";
 		rLen = 0;
-		rLoc = 2783;
+		rLoc = 2826;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 2016;
@@ -2350,7 +2379,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 92";
 		rLen = 0;
-		rLoc = 3308;
+		rLoc = 3351;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 2016;
@@ -2360,7 +2389,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 92";
 		rLen = 0;
-		rLoc = 3308;
+		rLoc = 3351;
 		rType = 0;
 		vrLen = 1684;
 		vrLoc = 627;
@@ -2370,7 +2399,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 92";
 		rLen = 0;
-		rLoc = 3306;
+		rLoc = 3349;
 		rType = 0;
 		vrLen = 1670;
 		vrLoc = 2038;
@@ -2380,7 +2409,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 47";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 1469;
 		vrLoc = 1236;
@@ -2390,7 +2419,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 59";
 		rLen = 0;
-		rLoc = 1956;
+		rLoc = 1999;
 		rType = 0;
 		vrLen = 1555;
 		vrLoc = 1236;
@@ -2400,7 +2429,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 41";
 		rLen = 0;
-		rLoc = 1301;
+		rLoc = 1344;
 		rType = 0;
 		vrLen = 1502;
 		vrLoc = 290;
@@ -2440,7 +2469,7 @@
 		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
 		name = "MainViewController.m: 25";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 861;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 0;
@@ -2480,7 +2509,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 34";
 		rLen = 0;
-		rLoc = 986;
+		rLoc = 1025;
 		rType = 0;
 		vrLen = 1502;
 		vrLoc = 290;
@@ -2490,7 +2519,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 11";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 260;
 		rType = 0;
 		vrLen = 1255;
 		vrLoc = 0;
@@ -2560,7 +2589,7 @@
 		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
 		name = "MainViewController.m: 25";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 861;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 0;
@@ -2570,7 +2599,7 @@
 		fRef = 5B05D4D2113745030011D7F3 /* UFView.m */;
 		name = "UFView.m: 18";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 476;
 		rType = 0;
 		vrLen = 713;
 		vrLoc = 0;
@@ -2580,7 +2609,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 10";
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 260;
 		rType = 0;
 		vrLen = 1238;
 		vrLoc = 0;
@@ -2590,7 +2619,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 13";
 		rLen = 0;
-		rLoc = 289;
+		rLoc = 308;
 		rType = 0;
 		vrLen = 1238;
 		vrLoc = 0;
@@ -2610,7 +2639,7 @@
 		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
 		name = "MainViewController.m: 25";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 861;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 1221;
@@ -2620,7 +2649,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 13";
 		rLen = 0;
-		rLoc = 289;
+		rLoc = 308;
 		rType = 0;
 		vrLen = 1458;
 		vrLoc = 56;
@@ -2630,7 +2659,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 47";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 598;
@@ -2640,7 +2669,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 47";
 		rLen = 0;
-		rLoc = 1611;
+		rLoc = 1654;
 		rType = 0;
 		vrLen = 1416;
 		vrLoc = 598;
@@ -2650,7 +2679,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 47";
 		rLen = 0;
-		rLoc = 1611;
+		rLoc = 1654;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 598;
@@ -2690,7 +2719,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 47";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 600;
@@ -2700,7 +2729,7 @@
 		fRef = 5B05D4D2113745030011D7F3 /* UFView.m */;
 		name = "UFView.m: 18";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 476;
 		rType = 0;
 		vrLen = 713;
 		vrLoc = 0;
@@ -2740,7 +2769,7 @@
 		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
 		name = "MainViewController.m: 25";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 861;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 1220;
@@ -2800,7 +2829,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 16";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 362;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 0;
@@ -2810,7 +2839,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 39";
 		rLen = 0;
-		rLoc = 1290;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 1540;
 		vrLoc = 603;
@@ -2820,7 +2849,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 39";
 		rLen = 0;
-		rLoc = 1290;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 603;
@@ -2830,7 +2859,7 @@
 		fRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */;
 		name = "AFOpenFlowView.m: 396";
 		rLen = 1;
-		rLoc = 14306;
+		rLoc = 14456;
 		rType = 0;
 		vrLen = 1279;
 		vrLoc = 14976;
@@ -2840,7 +2869,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 43";
 		rLen = 0;
-		rLoc = 1466;
+		rLoc = 1509;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 575;
@@ -2864,24 +2893,6 @@
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 1502;
-	};
-	09CCA3DA1186EBA3008EFCA6 /* LibraryPortraitViewController.m:57 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
-		functionName = "-dealloc";
-		hitCount = 1;
-		ignoreCount = 0;
-		lineNumber = 57;
-		location = UrzasFactory;
-		modificationTime = 294054979.908506;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	09CCA3DE1186EBA7008EFCA6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2908,7 +2919,7 @@
 		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
 		name = "LibraryLandscapeViewController.h: 16";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 362;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 0;
@@ -2918,7 +2929,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 56";
 		rLen = 0;
-		rLoc = 1895;
+		rLoc = 1938;
 		rType = 0;
 		vrLen = 1665;
 		vrLoc = 985;
@@ -2928,7 +2939,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 56";
 		rLen = 0;
-		rLoc = 1895;
+		rLoc = 1938;
 		rType = 0;
 		vrLen = 1534;
 		vrLoc = 985;
@@ -2969,7 +2980,7 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 57";
 		rLen = 34;
-		rLoc = 1900;
+		rLoc = 1943;
 		rType = 0;
 		vrLen = 1422;
 		vrLoc = 598;
@@ -2979,10 +2990,1440 @@
 		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
 		name = "LibraryPortraitViewController.m: 55";
 		rLen = 0;
-		rLoc = 1785;
+		rLoc = 1828;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 1238;
+	};
+	09CCA40B118758C8008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
+		name = "LibraryLandscapeViewController.m: 91";
+		rLen = 0;
+		rLoc = 3248;
+		rType = 0;
+		vrLen = 1416;
+		vrLoc = 1900;
+	};
+	09CCA40C118758C8008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
+		name = "LibraryPortraitViewController.m: 77";
+		rLen = 0;
+		rLoc = 2788;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 600;
+	};
+	09CCA40D118758C8008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
+		name = "LibraryPortraitViewController.m: 77";
+		rLen = 0;
+		rLoc = 2788;
+		rType = 0;
+		vrLen = 1420;
+		vrLoc = 600;
+	};
+	09CCA43011875B70008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */;
+		name = "AFOpenFlowView.m: 396";
+		rLen = 1;
+		rLoc = 14456;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 14976;
+	};
+	09CCA44511875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA12C11869322008EFCA6 /* AFGetImageOperation.h */;
+		name = "AFGetImageOperation.h: 31";
+		rLen = 0;
+		rLoc = 1353;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 0;
+	};
+	09CCA44611875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
+		name = "MainViewController.m: 12";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 0;
+	};
+	09CCA44711875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D47E113727250011D7F3 /* DecksViewController.h */;
+		name = "DecksViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	09CCA44811875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UrzasFactoryAppDelegate.h */;
+		name = "UrzasFactoryAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 927;
+		vrLoc = 0;
+	};
+	09CCA44911875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
+		name = "LibraryLandscapeViewController.h: 14";
+		rLen = 0;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 0;
+	};
+	09CCA44A11875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
+		name = "LibraryPortraitViewController.m: 77";
+		rLen = 0;
+		rLoc = 2788;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 600;
+	};
+	09CCA44B11875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13C118694A5008EFCA6 /* LibraryPortraitViewController.h */;
+		name = "LibraryPortraitViewController.h: 24";
+		rLen = 0;
+		rLoc = 505;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	09CCA44C11875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */;
+		name = "UrzasFactoryAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 53;
+	};
+	09CCA44D11875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D47F113727250011D7F3 /* DecksViewController.m */;
+		name = "DecksViewController.m: 29";
+		rLen = 206;
+		rLoc = 804;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 619;
+	};
+	09CCA44E11875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA12D11869322008EFCA6 /* AFGetImageOperation.m */;
+		name = "AFGetImageOperation.m: 53";
+		rLen = 0;
+		rLoc = 1778;
+		rType = 0;
+		vrLen = 1215;
+		vrLoc = 658;
+	};
+	09CCA44F11875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
+		name = "LibraryLandscapeViewController.m: 20";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	09CCA45011875C8C008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
+		name = "LibraryLandscapeViewController.m: 20";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1042;
+		vrLoc = 0;
+	};
+	09CCA45311875F14008EFCA6 /* UINavigationBar+CustomImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
+			sepNavSelRange = "{190, 39}";
+			sepNavVisRange = "{0, 335}";
+			sepNavWindowFrame = "{{61, 12}, {653, 719}}";
+		};
+	};
+	09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 520}}";
+			sepNavSelRange = "{848, 0}";
+			sepNavVisRange = "{0, 1056}";
+		};
+	};
+	09CCA45611875FBF008EFCA6 /* awardback.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 12}, {653, 719}}";
+		};
+	};
+	09CCA45711875FBF008EFCA6 /* backdrop.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 54}, {653, 719}}";
+		};
+	};
+	09CCA47811876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D47F113727250011D7F3 /* DecksViewController.m */;
+		name = "DecksViewController.m: 31";
+		rLen = 0;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 1295;
+		vrLoc = 140;
+	};
+	09CCA47911876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
+		name = "MainViewController.m: 12";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 0;
+	};
+	09CCA47A11876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D47E113727250011D7F3 /* DecksViewController.h */;
+		name = "DecksViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	09CCA47B11876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B5ECA271139B53C003DE3BE /* UFTableViewController.m */;
+		name = "UFTableViewController.m: 9";
+		rLen = 0;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	09CCA47C11876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4D2113745030011D7F3 /* UFView.m */;
+		name = "UFView.m: 18";
+		rLen = 0;
+		rLoc = 476;
+		rType = 0;
+		vrLen = 713;
+		vrLoc = 0;
+	};
+	09CCA47D11876326008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5B5EC98D1138A2DD003DE3BE /* Icon.png */;
+	};
+	09CCA47E11876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* UrzasFactory_Prefix.pch */;
+		name = "UrzasFactory_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	09CCA47F11876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	09CCA48011876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA12C11869322008EFCA6 /* AFGetImageOperation.h */;
+		name = "AFGetImageOperation.h: 31";
+		rLen = 0;
+		rLoc = 1353;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 0;
+	};
+	09CCA48111876326008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09CCA45711875FBF008EFCA6 /* backdrop.jpg */;
+	};
+	09CCA48211876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA12F1186933C008EFCA6 /* UIImageExtras.h */;
+		name = "UIImageExtras.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 0;
+	};
+	09CCA48311876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA1301186933C008EFCA6 /* UIImageExtras.m */;
+		name = "UIImageExtras.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1616;
+	};
+	09CCA48411876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
+		name = "LibraryLandscapeViewController.m: 20";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	09CCA48511876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45311875F14008EFCA6 /* UINavigationBar+CustomImage.h */;
+		name = "UINavigationBar+CustomImage.h: 11";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	09CCA48611876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */;
+		name = "UINavigationBar+CustomImage.m: 30";
+		rLen = 0;
+		rLoc = 858;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 0;
+	};
+	09CCA48711876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
+		name = "LibraryPortraitViewController.m: 77";
+		rLen = 0;
+		rLoc = 2788;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 600;
+	};
+	09CCA48811876326008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
+		name = "LibraryPortraitViewController.m: 28";
+		rLen = 0;
+		rLoc = 779;
+		rType = 0;
+		vrLen = 1521;
+		vrLoc = 604;
+	};
+	09CCA4A011876794008EFCA6 /* UFView.m:16 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5B05D4D2113745030011D7F3 /* UFView.m */;
+		functionName = "-initWithFrame:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 16;
+		location = UrzasFactory;
+		modificationTime = 294093829.435088;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	09CCA50711876C1A008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09CCA45611875FBF008EFCA6 /* awardback.jpg */;
+	};
+	09CCA50811876C1A008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09CCA0EE118692B1008EFCA6 /* default.png */;
+	};
+	09CCA50911876C1A008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09CCA45711875FBF008EFCA6 /* backdrop.jpg */;
+	};
+	09CCA50A11876C1A008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09CCA48A118764BD008EFCA6 /* backdropTop.png */;
+	};
+	09CCA50B11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */;
+		name = "LibraryLandscapeViewController.h: 14";
+		rLen = 0;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 0;
+	};
+	09CCA50C11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */;
+		name = "UINavigationBar+CustomImage.m: 30";
+		rLen = 0;
+		rLoc = 847;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 0;
+	};
+	09CCA50D11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4D1113745030011D7F3 /* UFView.h */;
+		name = "UFView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	09CCA50E11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */;
+		name = "UrzasFactoryAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 53;
+	};
+	09CCA50F11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
+		name = "MainViewController.m: 12";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 0;
+	};
+	09CCA51011876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D47E113727250011D7F3 /* DecksViewController.h */;
+		name = "DecksViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	09CCA51111876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B5ECA261139B53C003DE3BE /* UFTableViewController.h */;
+		name = "UFTableViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	09CCA51211876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B5ECA271139B53C003DE3BE /* UFTableViewController.m */;
+		name = "UFTableViewController.m: 17";
+		rLen = 331;
+		rLoc = 295;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 31;
+	};
+	09CCA51311876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13C118694A5008EFCA6 /* LibraryPortraitViewController.h */;
+		name = "LibraryPortraitViewController.h: 24";
+		rLen = 0;
+		rLoc = 505;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	09CCA51411876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
+		name = "LibraryPortraitViewController.m: 28";
+		rLen = 0;
+		rLoc = 679;
+		rType = 0;
+		vrLen = 1282;
+		vrLoc = 3669;
+	};
+	09CCA51511876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
+		name = "LibraryLandscapeViewController.m: 20";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	09CCA51611876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0AA11868E4C008EFCA6 /* AFItemView.h */;
+		name = "AFItemView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1544;
+		vrLoc = 0;
+	};
+	09CCA51711876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0AC11868E4C008EFCA6 /* AFOpenFlowConstants.h */;
+		name = "AFOpenFlowConstants.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 0;
+	};
+	09CCA51811876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0AD11868E4C008EFCA6 /* AFOpenFlowView.h */;
+		name = "AFOpenFlowView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1556;
+		vrLoc = 61;
+	};
+	09CCA51911876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */;
+		name = "AFOpenFlowView.m: 62";
+		rLen = 0;
+		rLoc = 2623;
+		rType = 0;
+		vrLen = 1585;
+		vrLoc = 1279;
+	};
+	09CCA51A11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45311875F14008EFCA6 /* UINavigationBar+CustomImage.h */;
+		name = "UINavigationBar+CustomImage.h: 11";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	09CCA51B11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4271136FD360011D7F3 /* MainViewController.h */;
+		name = "MainViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 0;
+	};
+	09CCA51C11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA12D11869322008EFCA6 /* AFGetImageOperation.m */;
+		name = "AFGetImageOperation.m: 53";
+		rLen = 0;
+		rLoc = 1778;
+		rType = 0;
+		vrLen = 1215;
+		vrLoc = 658;
+	};
+	09CCA51D11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4D2113745030011D7F3 /* UFView.m */;
+		name = "UFView.m: 18";
+		rLen = 93;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 0;
+	};
+	09CCA51E11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D47F113727250011D7F3 /* DecksViewController.m */;
+		name = "DecksViewController.m: 11";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 1302;
+		vrLoc = 0;
+	};
+	09CCA51F11876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA1301186933C008EFCA6 /* UIImageExtras.m */;
+		name = "UIImageExtras.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1616;
+	};
+	09CCA52011876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA12C11869322008EFCA6 /* AFGetImageOperation.h */;
+		name = "AFGetImageOperation.h: 31";
+		rLen = 0;
+		rLoc = 1353;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 0;
+	};
+	09CCA52111876C1A008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA12C11869322008EFCA6 /* AFGetImageOperation.h */;
+		name = "AFGetImageOperation.h: 31";
+		rLen = 0;
+		rLoc = 1353;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 0;
+	};
+	09CCA52211876C47008EFCA6 /* CreditsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
+			sepNavSelRange = "{289, 0}";
+			sepNavVisRange = "{0, 358}";
+		};
+	};
+	09CCA52311876C47008EFCA6 /* CreditsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 702}}";
+			sepNavSelRange = "{596, 0}";
+			sepNavVisRange = "{51, 1164}";
+		};
+	};
+	09CCA54211877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA12C11869322008EFCA6 /* AFGetImageOperation.h */;
+		name = "AFGetImageOperation.h: 31";
+		rLen = 0;
+		rLoc = 1353;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 0;
+	};
+	09CCA54311877415008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09CCA48A118764BD008EFCA6 /* backdropTop.png */;
+	};
+	09CCA54411877415008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09CCA45611875FBF008EFCA6 /* awardback.jpg */;
+	};
+	09CCA54511877415008EFCA6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09CCA45711875FBF008EFCA6 /* backdrop.jpg */;
+	};
+	09CCA54611877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UrzasFactoryAppDelegate.h */;
+		name = "UrzasFactoryAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 927;
+		vrLoc = 0;
+	};
+	09CCA54711877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0AF11868E4C008EFCA6 /* AFUIImageReflection.h */;
+		name = "AFUIImageReflection.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1284;
+		vrLoc = 0;
+	};
+	09CCA54811877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */;
+		name = "AFOpenFlowView.m: 62";
+		rLen = 0;
+		rLoc = 2528;
+		rType = 0;
+		vrLen = 1593;
+		vrLoc = 1279;
+	};
+	09CCA54911877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */;
+		name = "UrzasFactoryAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 53;
+	};
+	09CCA54A11877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13C118694A5008EFCA6 /* LibraryPortraitViewController.h */;
+		name = "LibraryPortraitViewController.h: 24";
+		rLen = 0;
+		rLoc = 505;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	09CCA54B11877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0DE11868F23008EFCA6 /* LibraryLandscapeView.xib */;
+		name = "LibraryLandscapeView.xib: 7";
+		rLen = 0;
+		rLoc = 302;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 4630;
+	};
+	09CCA54C11877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4271136FD360011D7F3 /* MainViewController.h */;
+		name = "MainViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 0;
+	};
+	09CCA54D11877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4281136FD360011D7F3 /* MainViewController.m */;
+		name = "MainViewController.m: 12";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 1477;
+		vrLoc = 0;
+	};
+	09CCA54E11877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0AB11868E4C008EFCA6 /* AFItemView.m */;
+		name = "AFItemView.m: 31";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 1539;
+		vrLoc = 0;
+	};
+	09CCA54F11877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4D1113745030011D7F3 /* UFView.h */;
+		name = "UFView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	09CCA55011877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B5ECA261139B53C003DE3BE /* UFTableViewController.h */;
+		name = "UFTableViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	09CCA55111877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D47E113727250011D7F3 /* DecksViewController.h */;
+		name = "DecksViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	09CCA55211877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D47F113727250011D7F3 /* DecksViewController.m */;
+		name = "DecksViewController.m: 11";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 1302;
+		vrLoc = 0;
+	};
+	09CCA55311877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B5ECA271139B53C003DE3BE /* UFTableViewController.m */;
+		name = "UFTableViewController.m: 21";
+		rLen = 0;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1452;
+		vrLoc = 142;
+	};
+	09CCA55411877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4D2113745030011D7F3 /* UFView.m */;
+		name = "UFView.m: 18";
+		rLen = 108;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 0;
+	};
+	09CCA55511877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */;
+		name = "LibraryPortraitViewController.m: 35";
+		rLen = 0;
+		rLoc = 959;
+		rType = 0;
+		vrLen = 1274;
+		vrLoc = 3;
+	};
+	09CCA55611877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */;
+		name = "LibraryLandscapeViewController.m: 20";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	09CCA55711877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52211876C47008EFCA6 /* CreditsViewController.h */;
+		name = "CreditsViewController.h: 12";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	09CCA55811877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 24";
+		rLen = 0;
+		rLoc = 789;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 31;
+	};
+	09CCA55911877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45311875F14008EFCA6 /* UINavigationBar+CustomImage.h */;
+		name = "UINavigationBar+CustomImage.h: 11";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	09CCA55A11877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */;
+		name = "UINavigationBar+CustomImage.m: 38";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 0;
+	};
+	09CCA55B11877415008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */;
+		name = "UINavigationBar+CustomImage.m: 38";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1421;
+		vrLoc = 513;
+	};
+	09CCA55C11877430008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */;
+		name = "UINavigationBar+CustomImage.m: 37";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 0;
+	};
+	09CCA55D1187744B008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */;
+		name = "UINavigationBar+CustomImage.m: 37";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 0;
+	};
+	09CCA55E1187744B008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52211876C47008EFCA6 /* CreditsViewController.h */;
+		name = "CreditsViewController.h: 12";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	09CCA55F1187744B008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 24";
+		rLen = 0;
+		rLoc = 789;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 31;
+	};
+	09CCA5601187744B008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 22";
+		rLen = 0;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 31;
+	};
+	09CCA56111877521008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */;
+		name = "UINavigationBar+CustomImage.m: 37";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 0;
+	};
+	09CCA56211877521008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45311875F14008EFCA6 /* UINavigationBar+CustomImage.h */;
+		name = "UINavigationBar+CustomImage.h: 11";
+		rLen = 39;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	09CCA56311877521008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 21";
+		rLen = 11;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 185;
+	};
+	09CCA56411877521008EFCA6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UrzasFactory-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/luminare/Documents/UrzasFactory/UrzasFactory-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	09CCA56511877521008EFCA6 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28C3AD890F43EF2300507BA6 /* UrzasFactory.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 0;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					70.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {673, 220}}",
+						"{{678, 0}, {353, 220}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1031, 220}}",
+						"{{0, 225}, {1031, 302}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {220, 220}}",
+						"{{225, 0}, {446, 220}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					183.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-148, 111}, {1016, 287}}";
+			"xdesign model selected entities key" = (
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	09CCA57711877E62008EFCA6 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28C3AD890F43EF2300507BA6 /* UrzasFactory.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 0;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					70.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {673, 220}}",
+						"{{678, 0}, {353, 220}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {1031, 220}}",
+						"{{0, 225}, {1031, 302}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {220, 220}}",
+						"{{225, 0}, {446, 220}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					183.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-148, 111}, {1016, 287}}";
+			"xdesign model selected entities key" = (
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	09CCA57811877E62008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */;
+		name = "UINavigationBar+CustomImage.m: 30";
+		rLen = 0;
+		rLoc = 848;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 0;
+	};
+	09CCA57911877E62008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA0DE11868F23008EFCA6 /* LibraryLandscapeView.xib */;
+		name = "LibraryLandscapeView.xib: 7";
+		rLen = 0;
+		rLoc = 302;
+		rType = 0;
+		vrLen = 1516;
+		vrLoc = 4524;
+	};
+	09CCA57A11877E62008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 22";
+		rLen = 0;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 185;
+	};
+	09CCA57B11877E62008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 22";
+		rLen = 0;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 185;
+	};
+	09CCA58211878133008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52211876C47008EFCA6 /* CreditsViewController.h */;
+		name = "CreditsViewController.h: 16";
+		rLen = 0;
+		rLoc = 351;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	09CCA58311878133008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 22";
+		rLen = 0;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 1119;
+		vrLoc = 184;
+	};
+	09CCA58411878133008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 23";
+		rLen = 0;
+		rLoc = 601;
+		rType = 0;
+		vrLen = 1183;
+		vrLoc = 51;
+	};
+	09CCA58A11878188008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52211876C47008EFCA6 /* CreditsViewController.h */;
+		name = "CreditsViewController.h: 10";
+		rLen = 0;
+		rLoc = 207;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	09CCA58B11878188008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 8";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 1183;
+		vrLoc = 51;
+	};
+	09CCA58C11878188008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 8";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 1183;
+		vrLoc = 51;
+	};
+	09CCA64811879617008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */;
+		name = "CreditsViewController.m: 22";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 51;
+	};
+	09CCA64911879617008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B05D4D2113745030011D7F3 /* UFView.m */;
+		name = "UFView.m: 18";
+		rLen = 108;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 0;
+	};
+	09CCA64A11879617008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B5ECA261139B53C003DE3BE /* UFTableViewController.h */;
+		name = "UFTableViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	09CCA64B11879617008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5B5ECA271139B53C003DE3BE /* UFTableViewController.m */;
+		name = "UFTableViewController.m: 21";
+		rLen = 0;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1450;
+		vrLoc = 142;
+	};
+	09CCA64C11879617008EFCA6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09CCA52211876C47008EFCA6 /* CreditsViewController.h */;
+		name = "CreditsViewController.h: 15";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
 	};
 	09FD98EF112FC9060052E3FA /* UrzasFactory */ = {
 		isa = PBXExecutable;
@@ -3107,8 +4548,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {220, 218}}",
-							"{{225, 0}, {446, 218}}",
+							"{{0, 0}, {220, 220}}",
+							"{{225, 0}, {446, 220}}",
 						);
 					};
 				};
@@ -3213,12 +4654,13 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 09FD98EF112FC9060052E3FA /* UrzasFactory */;
+		activeSDKPreference = iphoneos3.1.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* UrzasFactory */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* UrzasFactory */,
 		);
 		breakpoints = (
-			09CCA3DA1186EBA3008EFCA6 /* LibraryPortraitViewController.m:57 */,
+			09CCA4A011876794008EFCA6 /* UFView.m:16 */,
 		);
 		codeSenseManager = 09FD9906112FC9190052E3FA /* Code sense */;
 		executables = (
@@ -3540,14 +4982,133 @@
 			09CCA4041186ED0A008EFCA6 /* PBXTextBookmark */ = 09CCA4041186ED0A008EFCA6 /* PBXTextBookmark */;
 			09CCA4051186ED0A008EFCA6 /* PBXTextBookmark */ = 09CCA4051186ED0A008EFCA6 /* PBXTextBookmark */;
 			09CCA4061186ED0A008EFCA6 /* PBXTextBookmark */ = 09CCA4061186ED0A008EFCA6 /* PBXTextBookmark */;
+			09CCA40B118758C8008EFCA6 /* PBXTextBookmark */ = 09CCA40B118758C8008EFCA6 /* PBXTextBookmark */;
+			09CCA40C118758C8008EFCA6 /* PBXTextBookmark */ = 09CCA40C118758C8008EFCA6 /* PBXTextBookmark */;
+			09CCA40D118758C8008EFCA6 /* PBXTextBookmark */ = 09CCA40D118758C8008EFCA6 /* PBXTextBookmark */;
+			09CCA43011875B70008EFCA6 /* PBXTextBookmark */ = 09CCA43011875B70008EFCA6 /* PBXTextBookmark */;
+			09CCA44511875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44511875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44611875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44611875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44711875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44711875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44811875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44811875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44911875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44911875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44A11875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44A11875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44B11875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44B11875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44C11875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44C11875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44D11875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44D11875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44E11875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44E11875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA44F11875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA44F11875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA45011875C8C008EFCA6 /* PBXTextBookmark */ = 09CCA45011875C8C008EFCA6 /* PBXTextBookmark */;
+			09CCA47811876326008EFCA6 /* PBXTextBookmark */ = 09CCA47811876326008EFCA6 /* PBXTextBookmark */;
+			09CCA47911876326008EFCA6 /* PBXTextBookmark */ = 09CCA47911876326008EFCA6 /* PBXTextBookmark */;
+			09CCA47A11876326008EFCA6 /* PBXTextBookmark */ = 09CCA47A11876326008EFCA6 /* PBXTextBookmark */;
+			09CCA47B11876326008EFCA6 /* PBXTextBookmark */ = 09CCA47B11876326008EFCA6 /* PBXTextBookmark */;
+			09CCA47C11876326008EFCA6 /* PBXTextBookmark */ = 09CCA47C11876326008EFCA6 /* PBXTextBookmark */;
+			09CCA47D11876326008EFCA6 /* PBXBookmark */ = 09CCA47D11876326008EFCA6 /* PBXBookmark */;
+			09CCA47E11876326008EFCA6 /* PBXTextBookmark */ = 09CCA47E11876326008EFCA6 /* PBXTextBookmark */;
+			09CCA47F11876326008EFCA6 /* PBXTextBookmark */ = 09CCA47F11876326008EFCA6 /* PBXTextBookmark */;
+			09CCA48011876326008EFCA6 /* PBXTextBookmark */ = 09CCA48011876326008EFCA6 /* PBXTextBookmark */;
+			09CCA48111876326008EFCA6 /* PBXBookmark */ = 09CCA48111876326008EFCA6 /* PBXBookmark */;
+			09CCA48211876326008EFCA6 /* PBXTextBookmark */ = 09CCA48211876326008EFCA6 /* PBXTextBookmark */;
+			09CCA48311876326008EFCA6 /* PBXTextBookmark */ = 09CCA48311876326008EFCA6 /* PBXTextBookmark */;
+			09CCA48411876326008EFCA6 /* PBXTextBookmark */ = 09CCA48411876326008EFCA6 /* PBXTextBookmark */;
+			09CCA48511876326008EFCA6 /* PBXTextBookmark */ = 09CCA48511876326008EFCA6 /* PBXTextBookmark */;
+			09CCA48611876326008EFCA6 /* PBXTextBookmark */ = 09CCA48611876326008EFCA6 /* PBXTextBookmark */;
+			09CCA48711876326008EFCA6 /* PBXTextBookmark */ = 09CCA48711876326008EFCA6 /* PBXTextBookmark */;
+			09CCA48811876326008EFCA6 /* PBXTextBookmark */ = 09CCA48811876326008EFCA6 /* PBXTextBookmark */;
+			09CCA50711876C1A008EFCA6 /* PBXBookmark */ = 09CCA50711876C1A008EFCA6 /* PBXBookmark */;
+			09CCA50811876C1A008EFCA6 /* PBXBookmark */ = 09CCA50811876C1A008EFCA6 /* PBXBookmark */;
+			09CCA50911876C1A008EFCA6 /* PBXBookmark */ = 09CCA50911876C1A008EFCA6 /* PBXBookmark */;
+			09CCA50A11876C1A008EFCA6 /* PBXBookmark */ = 09CCA50A11876C1A008EFCA6 /* PBXBookmark */;
+			09CCA50B11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA50B11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA50C11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA50C11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA50D11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA50D11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA50E11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA50E11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA50F11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA50F11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51011876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51011876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51111876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51111876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51211876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51211876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51311876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51311876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51411876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51411876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51511876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51511876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51611876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51611876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51711876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51711876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51811876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51811876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51911876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51911876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51A11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51A11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51B11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51B11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51C11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51C11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51D11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51D11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51E11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51E11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA51F11876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA51F11876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA52011876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA52011876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA52111876C1A008EFCA6 /* PBXTextBookmark */ = 09CCA52111876C1A008EFCA6 /* PBXTextBookmark */;
+			09CCA54211877415008EFCA6 /* PBXTextBookmark */ = 09CCA54211877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54311877415008EFCA6 /* PBXBookmark */ = 09CCA54311877415008EFCA6 /* PBXBookmark */;
+			09CCA54411877415008EFCA6 /* PBXBookmark */ = 09CCA54411877415008EFCA6 /* PBXBookmark */;
+			09CCA54511877415008EFCA6 /* PBXBookmark */ = 09CCA54511877415008EFCA6 /* PBXBookmark */;
+			09CCA54611877415008EFCA6 /* PBXTextBookmark */ = 09CCA54611877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54711877415008EFCA6 /* PBXTextBookmark */ = 09CCA54711877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54811877415008EFCA6 /* PBXTextBookmark */ = 09CCA54811877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54911877415008EFCA6 /* PBXTextBookmark */ = 09CCA54911877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54A11877415008EFCA6 /* PBXTextBookmark */ = 09CCA54A11877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54B11877415008EFCA6 /* PBXTextBookmark */ = 09CCA54B11877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54C11877415008EFCA6 /* PBXTextBookmark */ = 09CCA54C11877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54D11877415008EFCA6 /* PBXTextBookmark */ = 09CCA54D11877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54E11877415008EFCA6 /* PBXTextBookmark */ = 09CCA54E11877415008EFCA6 /* PBXTextBookmark */;
+			09CCA54F11877415008EFCA6 /* PBXTextBookmark */ = 09CCA54F11877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55011877415008EFCA6 /* PBXTextBookmark */ = 09CCA55011877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55111877415008EFCA6 /* PBXTextBookmark */ = 09CCA55111877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55211877415008EFCA6 /* PBXTextBookmark */ = 09CCA55211877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55311877415008EFCA6 /* PBXTextBookmark */ = 09CCA55311877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55411877415008EFCA6 /* PBXTextBookmark */ = 09CCA55411877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55511877415008EFCA6 /* PBXTextBookmark */ = 09CCA55511877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55611877415008EFCA6 /* PBXTextBookmark */ = 09CCA55611877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55711877415008EFCA6 /* PBXTextBookmark */ = 09CCA55711877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55811877415008EFCA6 /* PBXTextBookmark */ = 09CCA55811877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55911877415008EFCA6 /* PBXTextBookmark */ = 09CCA55911877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55A11877415008EFCA6 /* PBXTextBookmark */ = 09CCA55A11877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55B11877415008EFCA6 /* PBXTextBookmark */ = 09CCA55B11877415008EFCA6 /* PBXTextBookmark */;
+			09CCA55C11877430008EFCA6 /* PBXTextBookmark */ = 09CCA55C11877430008EFCA6 /* PBXTextBookmark */;
+			09CCA55D1187744B008EFCA6 /* PBXTextBookmark */ = 09CCA55D1187744B008EFCA6 /* PBXTextBookmark */;
+			09CCA55E1187744B008EFCA6 /* PBXTextBookmark */ = 09CCA55E1187744B008EFCA6 /* PBXTextBookmark */;
+			09CCA55F1187744B008EFCA6 /* PBXTextBookmark */ = 09CCA55F1187744B008EFCA6 /* PBXTextBookmark */;
+			09CCA5601187744B008EFCA6 /* PBXTextBookmark */ = 09CCA5601187744B008EFCA6 /* PBXTextBookmark */;
+			09CCA56111877521008EFCA6 /* PBXTextBookmark */ = 09CCA56111877521008EFCA6 /* PBXTextBookmark */;
+			09CCA56211877521008EFCA6 /* PBXTextBookmark */ = 09CCA56211877521008EFCA6 /* PBXTextBookmark */;
+			09CCA56311877521008EFCA6 /* PBXTextBookmark */ = 09CCA56311877521008EFCA6 /* PBXTextBookmark */;
+			09CCA56411877521008EFCA6 /* PlistBookmark */ = 09CCA56411877521008EFCA6 /* PlistBookmark */;
+			09CCA56511877521008EFCA6 /* XDModelBookmark */ = 09CCA56511877521008EFCA6 /* XDModelBookmark */;
+			09CCA57711877E62008EFCA6 /* XDModelBookmark */ = 09CCA57711877E62008EFCA6 /* XDModelBookmark */;
+			09CCA57811877E62008EFCA6 /* PBXTextBookmark */ = 09CCA57811877E62008EFCA6 /* PBXTextBookmark */;
+			09CCA57911877E62008EFCA6 /* PBXTextBookmark */ = 09CCA57911877E62008EFCA6 /* PBXTextBookmark */;
+			09CCA57A11877E62008EFCA6 /* PBXTextBookmark */ = 09CCA57A11877E62008EFCA6 /* PBXTextBookmark */;
+			09CCA57B11877E62008EFCA6 /* PBXTextBookmark */ = 09CCA57B11877E62008EFCA6 /* PBXTextBookmark */;
+			09CCA58211878133008EFCA6 /* PBXTextBookmark */ = 09CCA58211878133008EFCA6 /* PBXTextBookmark */;
+			09CCA58311878133008EFCA6 /* PBXTextBookmark */ = 09CCA58311878133008EFCA6 /* PBXTextBookmark */;
+			09CCA58411878133008EFCA6 /* PBXTextBookmark */ = 09CCA58411878133008EFCA6 /* PBXTextBookmark */;
+			09CCA58A11878188008EFCA6 /* PBXTextBookmark */ = 09CCA58A11878188008EFCA6 /* PBXTextBookmark */;
+			09CCA58B11878188008EFCA6 /* PBXTextBookmark */ = 09CCA58B11878188008EFCA6 /* PBXTextBookmark */;
+			09CCA58C11878188008EFCA6 /* PBXTextBookmark */ = 09CCA58C11878188008EFCA6 /* PBXTextBookmark */;
+			09CCA64811879617008EFCA6 /* PBXTextBookmark */ = 09CCA64811879617008EFCA6 /* PBXTextBookmark */;
+			09CCA64911879617008EFCA6 /* PBXTextBookmark */ = 09CCA64911879617008EFCA6 /* PBXTextBookmark */;
+			09CCA64A11879617008EFCA6 /* PBXTextBookmark */ = 09CCA64A11879617008EFCA6 /* PBXTextBookmark */;
+			09CCA64B11879617008EFCA6 /* PBXTextBookmark */ = 09CCA64B11879617008EFCA6 /* PBXTextBookmark */;
+			09CCA64C11879617008EFCA6 /* PBXTextBookmark */ = 09CCA64C11879617008EFCA6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 09FD9905112FC9190052E3FA /* Source Control */;
 		userBuildSettings = {
 		};
 	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 363}";
+		};
+	};
 	32CA4F630368D1EE00C91783 /* UrzasFactory_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 512}}";
+			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 364}";
 		};
@@ -3562,8 +5123,8 @@
 	5B05D4281136FD360011D7F3 /* MainViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 1001}}";
-			sepNavSelRange = "{827, 0}";
-			sepNavVisRange = "{1220, 971}";
+			sepNavSelRange = "{281, 0}";
+			sepNavVisRange = "{0, 1477}";
 		};
 	};
 	5B05D47E113727250011D7F3 /* DecksViewController.h */ = {
@@ -3575,8 +5136,8 @@
 	};
 	5B05D47F113727250011D7F3 /* DecksViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 819}}";
-			sepNavSelRange = "{174, 18}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 741}}";
+			sepNavSelRange = "{193, 0}";
 			sepNavVisRange = "{0, 1302}";
 			sepNavWindowFrame = "{{15, 54}, {653, 719}}";
 		};
@@ -3590,9 +5151,9 @@
 	};
 	5B05D4D2113745030011D7F3 /* UFView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 512}}";
-			sepNavSelRange = "{363, 0}";
-			sepNavVisRange = "{0, 713}";
+			sepNavIntBoundsRect = "{{0, 0}, {824, 481}}";
+			sepNavSelRange = "{504, 14}";
+			sepNavVisRange = "{155, 549}";
 			sepNavWindowFrame = "{{15, -1}, {1241, 774}}";
 		};
 	};
@@ -3605,9 +5166,9 @@
 	};
 	5B5ECA271139B53C003DE3BE /* UFTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 2405}}";
-			sepNavSelRange = "{179, 0}";
-			sepNavVisRange = "{0, 1322}";
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 2379}}";
+			sepNavSelRange = "{626, 0}";
+			sepNavVisRange = "{142, 1450}";
 		};
 	};
 }

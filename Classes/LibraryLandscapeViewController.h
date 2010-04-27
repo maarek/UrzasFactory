@@ -12,7 +12,6 @@
 
 @interface LibraryLandscapeViewController : UIViewController <AFOpenFlowViewDataSource, AFOpenFlowViewDelegate> {
 	NSArray *coverImageData;
-	NSArray *keyList;
 	NSInteger keyListIndex;
 	NSOperationQueue *loadImagesOperationQueue;
 }

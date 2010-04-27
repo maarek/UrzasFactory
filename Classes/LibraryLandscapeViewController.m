@@ -25,13 +25,15 @@
         self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     }
 	
-	keyList = [NSArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10", nil];
+    return self;	
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
 	keyListIndex = 1;
 	loadImagesOperationQueue = [[NSOperationQueue alloc] init];
-	[(AFOpenFlowView *)self.view setNumberOfImages:9];  //30
-	
-	
-    return self;	
+	[(AFOpenFlowView *)self.view setNumberOfImages:9];
 }
 
 - (IBAction)infoButtonPressed:(id)sender {
@@ -86,8 +88,6 @@
 
 - (void)dealloc {
 	[loadImagesOperationQueue release];
-	[keyList release];
-	
     [super dealloc];
 }
 
