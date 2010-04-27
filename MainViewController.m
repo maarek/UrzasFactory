@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "DecksViewController.h"
+#import "LibraryPortraitViewController.h"
 
 @implementation MainViewController
 
@@ -18,6 +19,10 @@
 		DecksViewController * viewController = [[DecksViewController alloc] init];
 		[self.navigationController pushViewController:viewController animated:YES];
 		[viewController release];
+	} else if (sender == libraryButton) {
+		LibraryPortraitViewController * viewController = [[LibraryPortraitViewController alloc] init];
+		[self.navigationController pushViewController:viewController animated:YES];
+		[viewController	release];
 	}
 }
 /*
