@@ -9,9 +9,12 @@
 #import "LibraryPortraitViewController.h"
 #import "LibraryLandscapeViewController.h"
 #import "UFView.h"
+#import "DataController.h"
 
 @implementation LibraryPortraitViewController
 
+@synthesize dataController;
+@synthesize sBar;
 @synthesize landscapeViewController;
 
 /*
@@ -25,10 +28,24 @@
 
 
 - (void)viewDidLoad {
-	UFView * deckView = [[UFView alloc] initWithFrame:self.navigationController.view.frame];
-	self.view = deckView;
-	[deckView release];
 
+	
+	self.dataController = [[DataController alloc] init];
+	
+	// create and configure the view
+	//UFView * deckView = [[UFView alloc] initWithFrame:self.navigationController.view.frame];
+	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backdropBottom.png"]];
+	
+	CGRect cgRct = CGRectMake(10, 10, 300, 400); //define size and position of view
+	UITableView * tableView = [[UITableView alloc] initWithFrame:cgRct style:UITableViewStyleGrouped];
+	tableView.dataSource = self;
+	tableView.delegate = self; //make the current object the event handler for view
+	tableView.backgroundColor = [UIColor clearColor];
+	
+	//self.view = deckView;
+	//[deckView release];
+	[self.view addSubview:tableView];
+	[tableView release];
 	
     LibraryLandscapeViewController *viewController = [[LibraryLandscapeViewController alloc]
 											   initWithNibName:@"LibraryLandscapeView" bundle:nil];
@@ -44,7 +61,7 @@
 	// Display navigation bar for this view controller.
 	[self.navigationController setNavigationBarHidden:NO];
 	self.title = @"Library";
-	UIBarButtonItem *libraryButton = [[[UIBarButtonItem alloc] initWithTitle:@"Library" 
+	UIBarButtonItem *libraryButton = [[[UIBarButtonItem alloc] initWithTitle:@"Filters" 
 																   style:UIBarButtonItemStyleBordered 
 																  target:self 
 																  action:@selector(filterAction:)] autorelease];
@@ -117,23 +134,37 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [dataController countOfList]+1;
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
-    
-    // Set up the cell...
+	//Try to get rusable cell
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CellIdentifier"];
+	if (cell == nil) {
+		//If not possible create a new cell
+		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CellIdentifier"] 
+				autorelease];
+	}
+
+	cell.backgroundColor = [UIColor colorWithHue:0 saturation:0.5 brightness:0.5 alpha:0.5];
+	cell.layer.masksToBounds = YES;
+	cell.layer.cornerRadius = 15.0;
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	
-    return cell;
+	// Get the string to display and set the value in the cell
+	//Retreive text from datasource
+	if(indexPath.row == 0) {
+		//The first (or zeroth cell) contains a New Item string and is used to add elements to list
+		[cell.textLabel setText:@"New Item..."];
+	} else {
+		[cell.textLabel setText:[dataController objectInListAtIndex:indexPath.row-1]];
+	}
+
+	return cell;
 }
 
 

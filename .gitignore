@@ -9,3 +9,6 @@ build/*
 # osx noise
 .DS_Store
 profile
+
+# Paths to Ignore
+build/

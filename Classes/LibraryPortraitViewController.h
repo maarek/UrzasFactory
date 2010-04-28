@@ -11,14 +11,19 @@
 
 
 @class LibraryLandscapeViewController;
+@class DataController;
 
 
-
-@interface LibraryPortraitViewController : UIViewController {
+@interface LibraryPortraitViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+	DataController *dataController;
+	UISearchBar *sBar;//search bar
+	
     BOOL isShowingLandscapeView;
     LibraryLandscapeViewController *landscapeViewController;
 }
 
+@property (nonatomic, retain) DataController *dataController;
+@property (nonatomic, retain) IBOutlet UISearchBar *sBar;
 @property (nonatomic, retain) LibraryLandscapeViewController *landscapeViewController;
 
 - (void)filterAction:(id)sender;

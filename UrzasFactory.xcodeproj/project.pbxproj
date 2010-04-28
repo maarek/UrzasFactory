@@ -27,6 +27,7 @@
 		09CCA52511876C47008EFCA6 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA52311876C47008EFCA6 /* CreditsViewController.m */; };
 		09CCA52611876C47008EFCA6 /* CreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA52411876C47008EFCA6 /* CreditsViewController.xib */; };
 		09CCA56A11877684008EFCA6 /* backdropTop2.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA56911877684008EFCA6 /* backdropTop2.png */; };
+		09CCA67911879A3F008EFCA6 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA67811879A3F008EFCA6 /* DataController.m */; };
 		1D3623260D0F684500981E51 /* UrzasFactoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -79,6 +80,8 @@
 		09CCA52311876C47008EFCA6 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
 		09CCA52411876C47008EFCA6 /* CreditsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CreditsViewController.xib; path = Classes/CreditsViewController.xib; sourceTree = "<group>"; };
 		09CCA56911877684008EFCA6 /* backdropTop2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdropTop2.png; sourceTree = "<group>"; };
+		09CCA67711879A3F008EFCA6 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataController.h; path = Classes/DataController.h; sourceTree = "<group>"; };
+		09CCA67811879A3F008EFCA6 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataController.m; path = Classes/DataController.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* UrzasFactoryAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrzasFactoryAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrzasFactoryAppDelegate.m; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 				09CCA12D11869322008EFCA6 /* AFGetImageOperation.m */,
 				09CCA12F1186933C008EFCA6 /* UIImageExtras.h */,
 				09CCA1301186933C008EFCA6 /* UIImageExtras.m */,
+				09CCA67711879A3F008EFCA6 /* DataController.h */,
+				09CCA67811879A3F008EFCA6 /* DataController.m */,
 			);
 			name = "Accessory Classes";
 			sourceTree = "<group>";
@@ -347,6 +352,7 @@
 				09CCA13E118694A5008EFCA6 /* LibraryPortraitViewController.m in Sources */,
 				09CCA45511875F14008EFCA6 /* UINavigationBar+CustomImage.m in Sources */,
 				09CCA52511876C47008EFCA6 /* CreditsViewController.m in Sources */,
+				09CCA67911879A3F008EFCA6 /* DataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
