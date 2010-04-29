@@ -14,17 +14,20 @@
 @class DataController;
 
 
-@interface LibraryPortraitViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface LibraryPortraitViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate> {
 	DataController *dataController;
 	UISearchBar *sBar;//search bar
 	
     BOOL isShowingLandscapeView;
     LibraryLandscapeViewController *landscapeViewController;
+	NSFetchedResultsController *_fetchedResultsController;
+
 }
 
 @property (nonatomic, retain) DataController *dataController;
 @property (nonatomic, retain) IBOutlet UISearchBar *sBar;
 @property (nonatomic, retain) LibraryLandscapeViewController *landscapeViewController;
+@property (nonatomic, readonly) NSFetchedResultsController *fetchedResultsController;
 
 - (void)filterAction:(id)sender;
 

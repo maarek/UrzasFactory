@@ -27,5 +27,5 @@
 @interface UIImage (AFUIImageReflection)
 
 - (UIImage *)addImageReflection:(CGFloat)reflectionFraction;
-
+- (UIImage*) imageWithMask:(UIImage *)maskImage;
 @end

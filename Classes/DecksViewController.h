@@ -10,8 +10,11 @@
 #import "UFTableViewController.h"
 
 
-@interface DecksViewController : UFTableViewController {
+@interface DecksViewController : UFTableViewController <NSFetchedResultsControllerDelegate> {
 
+	NSFetchedResultsController *_fetchedResultsController;
 }
+
+@property (nonatomic, readonly) NSFetchedResultsController *fetchedResultsController;
 
 @end

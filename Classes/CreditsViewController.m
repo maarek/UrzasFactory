@@ -24,12 +24,12 @@
 	// Display navigation bar for this view controller.
 	//self.navigationItem.titleView = myImageView;
 	self.title = @"Credits";
-	[self.navigationController setNavigationBarHidden:NO];
-
 	
 }
 
-
+-(void)viewWillAppear:(BOOL)animated {
+	[self.navigationController setNavigationBarHidden:NO animated:animated];
+}
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

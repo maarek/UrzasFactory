@@ -27,6 +27,22 @@
 
 @implementation UIImage (AFUIImageReflection)
 
+- (UIImage*) imageWithMask:(UIImage *)maskImage {
+	
+	CGImageRef maskRef = maskImage.CGImage; 
+	
+	CGImageRef mask = CGImageMaskCreate(CGImageGetWidth(maskRef),
+										CGImageGetHeight(maskRef),
+										CGImageGetBitsPerComponent(maskRef),
+										CGImageGetBitsPerPixel(maskRef),
+										CGImageGetBytesPerRow(maskRef),
+										CGImageGetDataProvider(maskRef), NULL, false);
+	
+	CGImageRef masked = CGImageCreateWithMask([self CGImage], mask);
+	return [UIImage imageWithCGImage:masked];
+	
+}
+
 - (UIImage *)addImageReflection:(CGFloat)reflectionFraction {
 	int reflectionHeight = self.size.height * reflectionFraction;
 	

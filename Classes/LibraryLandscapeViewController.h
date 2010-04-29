@@ -16,7 +16,6 @@
 	NSOperationQueue *loadImagesOperationQueue;
 }
 
-
 - (void)imageDidLoad:(NSArray *)arguments;
 - (IBAction)infoButtonPressed:(id)sender;
 

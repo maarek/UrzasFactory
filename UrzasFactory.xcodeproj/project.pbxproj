@@ -14,7 +14,6 @@
 		09CCA0B711868E8C008EFCA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CCA0B611868E8C008EFCA6 /* QuartzCore.framework */; };
 		09CCA0DF11868F23008EFCA6 /* LibraryLandscapeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA0DE11868F23008EFCA6 /* LibraryLandscapeView.xib */; };
 		09CCA0E311868F87008EFCA6 /* LibraryLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */; };
-		09CCA10D118692B2008EFCA6 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA0EE118692B1008EFCA6 /* default.png */; };
 		09CCA12E11869322008EFCA6 /* AFGetImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA12D11869322008EFCA6 /* AFGetImageOperation.m */; };
 		09CCA1311186933C008EFCA6 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA1301186933C008EFCA6 /* UIImageExtras.m */; };
 		09CCA13311869357008EFCA6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CCA13211869357008EFCA6 /* CFNetwork.framework */; };
@@ -28,6 +27,7 @@
 		09CCA52611876C47008EFCA6 /* CreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA52411876C47008EFCA6 /* CreditsViewController.xib */; };
 		09CCA56A11877684008EFCA6 /* backdropTop2.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA56911877684008EFCA6 /* backdropTop2.png */; };
 		09CCA67911879A3F008EFCA6 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA67811879A3F008EFCA6 /* DataController.m */; };
+		09CCA8621189D4D9008EFCA6 /* UFAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA8611189D4D9008EFCA6 /* UFAlert.m */; };
 		1D3623260D0F684500981E51 /* UrzasFactoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -45,6 +45,16 @@
 		5B05D480113727250011D7F3 /* DecksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D47F113727250011D7F3 /* DecksViewController.m */; };
 		5B05D4B0113737F60011D7F3 /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B05D4AF113737F60011D7F3 /* Background2.png */; };
 		5B05D4D3113745030011D7F3 /* UFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D4D2113745030011D7F3 /* UFView.m */; };
+		5B37B38711881ABB003884A3 /* UrzasFactory.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5B37B38611881ABB003884A3 /* UrzasFactory.sqlite */; };
+		5B37B497118837B3003884A3 /* defaultCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B37B495118837B3003884A3 /* defaultCard.jpg */; };
+		5B37B498118837B3003884A3 /* Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B37B496118837B3003884A3 /* Mask.png */; };
+		5B37B7511188ECA0003884A3 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B7501188ECA0003884A3 /* CardViewController.m */; };
+		5B37B7711188ED15003884A3 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B7661188ED15003884A3 /* Artist.m */; };
+		5B37B7721188ED15003884A3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B7681188ED15003884A3 /* Card.m */; };
+		5B37B7731188ED15003884A3 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B76A1188ED15003884A3 /* Deck.m */; };
+		5B37B7741188ED15003884A3 /* Expansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B76C1188ED15003884A3 /* Expansion.m */; };
+		5B37B7751188ED15003884A3 /* Mana.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B76E1188ED15003884A3 /* Mana.m */; };
+		5B37B7761188ED15003884A3 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B7701188ED15003884A3 /* Type.m */; };
 		5B5EC98E1138A2DD003DE3BE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5EC98D1138A2DD003DE3BE /* Icon.png */; };
 		5B5ECA281139B53C003DE3BE /* UFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5ECA271139B53C003DE3BE /* UFTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -62,7 +72,6 @@
 		09CCA0DE11868F23008EFCA6 /* LibraryLandscapeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryLandscapeView.xib; sourceTree = "<group>"; };
 		09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryLandscapeViewController.h; sourceTree = "<group>"; };
 		09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryLandscapeViewController.m; sourceTree = "<group>"; };
-		09CCA0EE118692B1008EFCA6 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../default.png; sourceTree = "<group>"; };
 		09CCA12C11869322008EFCA6 /* AFGetImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFGetImageOperation.h; path = Classes/AFGetImageOperation.h; sourceTree = "<group>"; };
 		09CCA12D11869322008EFCA6 /* AFGetImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFGetImageOperation.m; path = Classes/AFGetImageOperation.m; sourceTree = "<group>"; };
 		09CCA12F1186933C008EFCA6 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageExtras.h; path = Classes/UIImageExtras.h; sourceTree = "<group>"; };
@@ -82,6 +91,8 @@
 		09CCA56911877684008EFCA6 /* backdropTop2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdropTop2.png; sourceTree = "<group>"; };
 		09CCA67711879A3F008EFCA6 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataController.h; path = Classes/DataController.h; sourceTree = "<group>"; };
 		09CCA67811879A3F008EFCA6 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataController.m; path = Classes/DataController.m; sourceTree = "<group>"; };
+		09CCA8601189D4D9008EFCA6 /* UFAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFAlert.h; path = Classes/UFAlert.h; sourceTree = "<group>"; };
+		09CCA8611189D4D9008EFCA6 /* UFAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFAlert.m; path = Classes/UFAlert.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* UrzasFactoryAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrzasFactoryAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrzasFactoryAppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +116,23 @@
 		5B05D4AF113737F60011D7F3 /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background2.png; sourceTree = "<group>"; };
 		5B05D4D1113745030011D7F3 /* UFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFView.h; path = Classes/UFView.h; sourceTree = "<group>"; };
 		5B05D4D2113745030011D7F3 /* UFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFView.m; path = Classes/UFView.m; sourceTree = "<group>"; };
+		5B37B38611881ABB003884A3 /* UrzasFactory.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = UrzasFactory.sqlite; sourceTree = "<group>"; };
+		5B37B495118837B3003884A3 /* defaultCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultCard.jpg; sourceTree = "<group>"; };
+		5B37B496118837B3003884A3 /* Mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mask.png; sourceTree = SOURCE_ROOT; };
+		5B37B74F1188ECA0003884A3 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		5B37B7501188ECA0003884A3 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		5B37B7651188ED15003884A3 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		5B37B7661188ED15003884A3 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		5B37B7671188ED15003884A3 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		5B37B7681188ED15003884A3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		5B37B7691188ED15003884A3 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		5B37B76A1188ED15003884A3 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		5B37B76B1188ED15003884A3 /* Expansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expansion.h; sourceTree = "<group>"; };
+		5B37B76C1188ED15003884A3 /* Expansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expansion.m; sourceTree = "<group>"; };
+		5B37B76D1188ED15003884A3 /* Mana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mana.h; sourceTree = "<group>"; };
+		5B37B76E1188ED15003884A3 /* Mana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mana.m; sourceTree = "<group>"; };
+		5B37B76F1188ED15003884A3 /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		5B37B7701188ED15003884A3 /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
 		5B5EC98D1138A2DD003DE3BE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		5B5ECA261139B53C003DE3BE /* UFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFTableViewController.h; sourceTree = "<group>"; };
 		5B5ECA271139B53C003DE3BE /* UFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFTableViewController.m; sourceTree = "<group>"; };
@@ -143,6 +171,8 @@
 				09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */,
 				09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */,
 				09CCA52211876C47008EFCA6 /* CreditsViewController.h */,
+				5B37B74F1188ECA0003884A3 /* CardViewController.h */,
+				5B37B7501188ECA0003884A3 /* CardViewController.m */,
 				09CCA52311876C47008EFCA6 /* CreditsViewController.m */,
 			);
 			path = Classes;
@@ -166,6 +196,8 @@
 		09CCA50611876C07008EFCA6 /* Accessory Classes */ = {
 			isa = PBXGroup;
 			children = (
+				09CCA8601189D4D9008EFCA6 /* UFAlert.h */,
+				09CCA8611189D4D9008EFCA6 /* UFAlert.m */,
 				09CCA12C11869322008EFCA6 /* AFGetImageOperation.h */,
 				09CCA12D11869322008EFCA6 /* AFGetImageOperation.m */,
 				09CCA12F1186933C008EFCA6 /* UIImageExtras.h */,
@@ -187,6 +219,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5B37B7641188ED15003884A3 /* Model */,
 				09CCA50611876C07008EFCA6 /* Accessory Classes */,
 				5B5EC9EC1139ACB0003DE3BE /* Base Classes */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -211,6 +244,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B37B38611881ABB003884A3 /* UrzasFactory.sqlite */,
 				5B05D42C1136FD620011D7F3 /* Images */,
 				28C3AD890F43EF2300507BA6 /* UrzasFactory.xcdatamodel */,
 				5B05D4291136FD360011D7F3 /* MainView.xib */,
@@ -238,12 +272,13 @@
 		5B05D42C1136FD620011D7F3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5B37B495118837B3003884A3 /* defaultCard.jpg */,
+				5B37B496118837B3003884A3 /* Mask.png */,
 				09CCA56911877684008EFCA6 /* backdropTop2.png */,
 				09CCA489118764BD008EFCA6 /* backdropBottom.png */,
 				09CCA48A118764BD008EFCA6 /* backdropTop.png */,
 				09CCA45611875FBF008EFCA6 /* awardback.jpg */,
 				09CCA45711875FBF008EFCA6 /* backdrop.jpg */,
-				09CCA0EE118692B1008EFCA6 /* default.png */,
 				5B5EC98D1138A2DD003DE3BE /* Icon.png */,
 				5B05D44A11371E1F0011D7F3 /* Button.png */,
 				5B05D464113724BF0011D7F3 /* ButtonPushed.png */,
@@ -252,6 +287,25 @@
 				5B05D430113701340011D7F3 /* Title.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		5B37B7641188ED15003884A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B37B7651188ED15003884A3 /* Artist.h */,
+				5B37B7661188ED15003884A3 /* Artist.m */,
+				5B37B7671188ED15003884A3 /* Card.h */,
+				5B37B7681188ED15003884A3 /* Card.m */,
+				5B37B7691188ED15003884A3 /* Deck.h */,
+				5B37B76A1188ED15003884A3 /* Deck.m */,
+				5B37B76B1188ED15003884A3 /* Expansion.h */,
+				5B37B76C1188ED15003884A3 /* Expansion.m */,
+				5B37B76D1188ED15003884A3 /* Mana.h */,
+				5B37B76E1188ED15003884A3 /* Mana.m */,
+				5B37B76F1188ED15003884A3 /* Type.h */,
+				5B37B7701188ED15003884A3 /* Type.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5B5EC9EC1139ACB0003DE3BE /* Base Classes */ = {
@@ -319,13 +373,15 @@
 				5B5EC98E1138A2DD003DE3BE /* Icon.png in Resources */,
 				09CCA09B11868BC1008EFCA6 /* LibraryPortraitView.xib in Resources */,
 				09CCA0DF11868F23008EFCA6 /* LibraryLandscapeView.xib in Resources */,
-				09CCA10D118692B2008EFCA6 /* default.png in Resources */,
 				09CCA45811875FBF008EFCA6 /* awardback.jpg in Resources */,
 				09CCA45911875FBF008EFCA6 /* backdrop.jpg in Resources */,
 				09CCA48B118764BD008EFCA6 /* backdropBottom.png in Resources */,
 				09CCA48C118764BD008EFCA6 /* backdropTop.png in Resources */,
 				09CCA52611876C47008EFCA6 /* CreditsViewController.xib in Resources */,
 				09CCA56A11877684008EFCA6 /* backdropTop2.png in Resources */,
+				5B37B38711881ABB003884A3 /* UrzasFactory.sqlite in Resources */,
+				5B37B497118837B3003884A3 /* defaultCard.jpg in Resources */,
+				5B37B498118837B3003884A3 /* Mask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +409,14 @@
 				09CCA45511875F14008EFCA6 /* UINavigationBar+CustomImage.m in Sources */,
 				09CCA52511876C47008EFCA6 /* CreditsViewController.m in Sources */,
 				09CCA67911879A3F008EFCA6 /* DataController.m in Sources */,
+				5B37B7511188ECA0003884A3 /* CardViewController.m in Sources */,
+				5B37B7711188ED15003884A3 /* Artist.m in Sources */,
+				5B37B7721188ED15003884A3 /* Card.m in Sources */,
+				5B37B7731188ED15003884A3 /* Deck.m in Sources */,
+				5B37B7741188ED15003884A3 /* Expansion.m in Sources */,
+				5B37B7751188ED15003884A3 /* Mana.m in Sources */,
+				5B37B7761188ED15003884A3 /* Type.m in Sources */,
+				09CCA8621189D4D9008EFCA6 /* UFAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

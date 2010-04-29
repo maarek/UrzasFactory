@@ -10,13 +10,16 @@
 #import "LibraryLandscapeViewController.h"
 #import "UFView.h"
 #import "DataController.h"
+#import "UrzasFactoryAppDelegate.h"
+#import "Card.h"
+#import "CardViewController.h"
 
 @implementation LibraryPortraitViewController
 
 @synthesize dataController;
 @synthesize sBar;
 @synthesize landscapeViewController;
-
+@synthesize fetchedResultsController = _fetchedResultsController;
 /*
 - (id)initWithStyle:(UITableViewStyle)style {
     // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -26,26 +29,39 @@
 }
 */
 
+-(void)viewWillAppear:(BOOL)animated {
+	[self.navigationController setNavigationBarHidden:NO animated:animated];
+}
 
 - (void)viewDidLoad {
-
+	NSError *error = nil;
+	if (![[self fetchedResultsController] performFetch:&error]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error loading data", @"Error loading data") 
+                                                        message:[NSString stringWithFormat:@"Error was: %@, quitting.", [error localizedDescription]]
+                                                       delegate:self 
+                                              cancelButtonTitle:NSLocalizedString(@"Aw, Nuts", @"Aw, Nuts")
+                                              otherButtonTitles:nil];
+        [alert show];
+		
+	}
 	
-	self.dataController = [[DataController alloc] init];
+	
+//	self.dataController = [[DataController alloc] init];
 	
 	// create and configure the view
 	//UFView * deckView = [[UFView alloc] initWithFrame:self.navigationController.view.frame];
 	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backdropBottom.png"]];
 	
-	CGRect cgRct = CGRectMake(10, 10, 300, 400); //define size and position of view
-	UITableView * tableView = [[UITableView alloc] initWithFrame:cgRct style:UITableViewStyleGrouped];
-	tableView.dataSource = self;
-	tableView.delegate = self; //make the current object the event handler for view
-	tableView.backgroundColor = [UIColor clearColor];
+//	CGRect cgRct = CGRectMake(10, 10, 300, 400); //define size and position of view
+//	UITableView * tableView = [[UITableView alloc] initWithFrame:cgRct style:UITableViewStyleGrouped];
+//	tableView.dataSource = self;
+//	tableView.delegate = self; //make the current object the event handler for view
+//	tableView.backgroundColor = [UIColor clearColor];
 	
 	//self.view = deckView;
 	//[deckView release];
-	[self.view addSubview:tableView];
-	[tableView release];
+//	[self.view addSubview:tableView];
+//	[tableView release];
 	
     LibraryLandscapeViewController *viewController = [[LibraryLandscapeViewController alloc]
 											   initWithNibName:@"LibraryLandscapeView" bundle:nil];
@@ -59,7 +75,7 @@
 	
 	
 	// Display navigation bar for this view controller.
-	[self.navigationController setNavigationBarHidden:NO];
+
 	self.title = @"Library";
 	UIBarButtonItem *libraryButton = [[[UIBarButtonItem alloc] initWithTitle:@"Filters" 
 																   style:UIBarButtonItemStyleBordered 
@@ -128,13 +144,20 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    NSUInteger count = [[self.fetchedResultsController sections] count];
+    return (count == 0) ? 1 : count;
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [dataController countOfList]+1;
+    NSArray *sections = [self.fetchedResultsController sections];
+    NSUInteger count = 0;
+    if ([sections count]) {
+        id <NSFetchedResultsSectionInfo> sectionInfo = [sections objectAtIndex:section];
+        count = [sectionInfo numberOfObjects];
+    }
+    return count;	
 }
 
 
@@ -155,24 +178,25 @@
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	
-	// Get the string to display and set the value in the cell
-	//Retreive text from datasource
-	if(indexPath.row == 0) {
-		//The first (or zeroth cell) contains a New Item string and is used to add elements to list
-		[cell.textLabel setText:@"New Item..."];
-	} else {
-		[cell.textLabel setText:[dataController objectInListAtIndex:indexPath.row-1]];
-	}
+	Card *card = [self.fetchedResultsController objectAtIndexPath:indexPath];
+
+	[cell.textLabel setText:[card valueForKey:@"name"]];
 
 	return cell;
 }
 
 
+- (NSString *)tableView:(UITableView *)tableView  titleForHeaderInSection:(NSInteger)section {
+    // Display the dates as section headings.
+    return [[[[self fetchedResultsController] sections] objectAtIndex:section] name];
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
-	// [self.navigationController pushViewController:anotherViewController];
-	// [anotherViewController release];
+	CardViewController * viewController = [[CardViewController alloc] init];
+	Card *card = [self.fetchedResultsController objectAtIndexPath:indexPath];
+	viewController.card = card;
+	[self.navigationController pushViewController:viewController animated:YES];
+	[viewController release];
 }
 
 
@@ -215,6 +239,47 @@
 }
 */
 
-
+- (NSFetchedResultsController *)fetchedResultsController {
+    
+    if (_fetchedResultsController != nil) {
+        return _fetchedResultsController;
+    }
+    
+	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    
+    // The typecast on the next line is not ordinarily necessary, however without it, we get a warning about
+    // the returned object not conforming to UITabBarDelegate. The typecast quiets the warning so we get
+    // a clean build.
+    UrzasFactoryAppDelegate *appDelegate = (UrzasFactoryAppDelegate *)[[UIApplication sharedApplication] delegate];
+    NSManagedObjectContext *managedObjectContext = appDelegate.managedObjectContext;
+	
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Card" inManagedObjectContext:managedObjectContext];
+    
+        
+    NSString *sectionKey = nil;
+	NSSortDescriptor *sortDescriptor1 = [[NSSortDescriptor alloc] initWithKey:@"expansion.name" ascending:YES];
+	NSSortDescriptor *sortDescriptor2 = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor1, sortDescriptor2, nil];
+//	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor1, nil];
+            [fetchRequest setSortDescriptors:sortDescriptors];
+            [sortDescriptor1 release];
+            [sortDescriptor2 release];
+            [sortDescriptors release];
+            sectionKey = @"expansion.name";
+   	[fetchRequest setEntity:entity];
+	[fetchRequest setFetchBatchSize:20];
+    
+	
+	NSFetchedResultsController *frc = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest    
+                                                                          managedObjectContext:managedObjectContext 
+                                                                            sectionNameKeyPath:sectionKey
+                                                                                     cacheName:@"Card"];
+    frc.delegate = self;
+    _fetchedResultsController = frc;
+    
+	[fetchRequest release];
+    
+	return _fetchedResultsController;
+}  
 @end
 

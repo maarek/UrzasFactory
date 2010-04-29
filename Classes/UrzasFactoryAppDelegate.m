@@ -8,7 +8,7 @@
 
 #import "UrzasFactoryAppDelegate.h"
 #import "MainViewController.h"
-
+#import "CreditsViewController.h"
 @implementation UrzasFactoryAppDelegate
 
 @synthesize window, navigationController;
@@ -22,7 +22,7 @@
     // Override point for customization after app launch    
 //	MainViewController * viewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.0/255.0 green:51.0/255.0 blue:102.0/255.0 alpha:1.0];
-	self.navigationController.navigationBarHidden = YES;
+	self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
 	[window addSubview:navigationController.view];
 	[window makeKeyAndVisible];
 }
@@ -92,9 +92,27 @@
     if (persistentStoreCoordinator != nil) {
         return persistentStoreCoordinator;
     }
-	
-    NSURL *storeUrl = [NSURL fileURLWithPath: [[self applicationDocumentsDirectory] stringByAppendingPathComponent: @"UrzasFactory.sqlite"]];
-	
+
+	NSString * localStorePath = [[self applicationDocumentsDirectory] stringByAppendingPathComponent: @"UrzasFactory.sqlite"];
+	NSString * defaultStorePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent: @"UrzasFactory.sqlite"];
+
+	if (![[NSFileManager defaultManager] fileExistsAtPath:localStorePath]) {
+		NSError * err = nil;
+		[[NSFileManager defaultManager] copyItemAtPath:defaultStorePath
+												toPath:localStorePath
+												 error:&err];
+		if (err) {
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error Createing Database"
+															message:[NSString stringWithFormat:@"Error was: %@, library will be readonly.", [err localizedDescription]]
+														   delegate:self 
+												  cancelButtonTitle:@"OK"
+												  otherButtonTitles:nil];
+			[alert show];
+			localStorePath = defaultStorePath;
+		}
+	}
+	NSURL *storeUrl = [NSURL fileURLWithPath:localStorePath];
+
 	NSError *error = nil;
     persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:nil error:&error]) {

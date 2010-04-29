@@ -29,6 +29,7 @@
 @implementation AFGetImageOperation
 @synthesize imageURL;
 
+
 - (id)initWithIndex:(int)imageIndex viewController:(LibraryLandscapeViewController *)viewController {
     if (self = [super init]) {
 		imageURL = nil;

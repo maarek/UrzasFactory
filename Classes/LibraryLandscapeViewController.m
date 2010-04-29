@@ -9,10 +9,10 @@
 #import "LibraryLandscapeViewController.h"
 #import "UIImageExtras.h"
 #import "AFGetImageOperation.h"
+#import "UFAlert.h"
 
 
 @implementation LibraryLandscapeViewController
-
 
 // the designated initializer. Override to perform setup that is required before the view is loaded.
 
@@ -30,23 +30,35 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-
+	[[UIApplication sharedApplication] setStatusBarHidden:YES animated:animated];
 	keyListIndex = 1;
 	loadImagesOperationQueue = [[NSOperationQueue alloc] init];
 	[(AFOpenFlowView *)self.view setNumberOfImages:9];
 }
 
-- (IBAction)infoButtonPressed:(id)sender {
-	NSString *alertString;
+- (void)viewWillDisappear:(BOOL)animated {
+	[super viewWillDisappear:animated];
+	
+	[[UIApplication sharedApplication] setStatusBarHidden:NO animated:animated];
+}
 
-	alertString = @"Sample images included in this project are all in the public domain, courtesy of NASA.";
-	UIAlertView *infoAlertPanel = [[UIAlertView alloc] initWithTitle:@"OpenFlow Demo App" 
-															 message:[NSString stringWithFormat:@"%@\n\nFor more info about the OpenFlow API, visit apparentlogic.com.", alertString]
-															delegate:nil 
-												   cancelButtonTitle:nil 
-												   otherButtonTitles:@"Dismiss", nil];
-	[infoAlertPanel show];
-	[infoAlertPanel release];
+- (IBAction)infoButtonPressed:(id)sender {
+	UFAlert *prompt = [UFAlert alloc];
+    prompt = [prompt initWithTitle:@"Add Card" 
+						   message:@"..." 
+						  delegate:self 
+				 cancelButtonTitle:@"Cancel" 
+					 okButtonTitle:@"Okay"];
+    
+	[prompt show];
+    [prompt release];
+	
+}
+
+- (void)alertView:(UIAlertView *)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex != [alertView cancelButtonIndex]) {
+        //NSString *entered = [(UFAlert *)alertView enteredText];
+    }
 }
 
 - (void)imageDidLoad:(NSArray *)arguments {
@@ -66,7 +78,9 @@
 }
 
 - (UIImage *)defaultImage {
-	return [UIImage imageNamed:@"default.png"];
+	return [UIImage imageNamed:@"defaultCard.png"];
+//	return [self maskImage:[UIImage imageNamed:@"Card.png"] withMask:[UIImage imageNamed:@"Mask.png"]];
+//	return [[UIImage imageNamed:@"default.jpg"] imageWithMaskNamed:@"mask.jpg"];
 }
 
 - (void)openFlowView:(AFOpenFlowView *)openFlowView requestImageForIndex:(int)index {
