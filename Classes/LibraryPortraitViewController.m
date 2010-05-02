@@ -35,6 +35,7 @@
 
 - (void)viewDidLoad {
 	NSError *error = nil;
+	
 	if (![[self fetchedResultsController] performFetch:&error]) {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error loading data", @"Error loading data") 
                                                         message:[NSString stringWithFormat:@"Error was: %@, quitting.", [error localizedDescription]]
@@ -45,8 +46,7 @@
 		
 	}
 	
-	
-//	self.dataController = [[DataController alloc] init];
+	//	self.dataController = [[DataController alloc] init];
 	
 	// create and configure the view
 	//UFView * deckView = [[UFView alloc] initWithFrame:self.navigationController.view.frame];

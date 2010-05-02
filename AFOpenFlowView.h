@@ -76,6 +76,8 @@
 @end
 
 @protocol AFOpenFlowViewDataSource <NSObject>
+// Add protocol for center image selection
+- (void)onSelectCenterImage:(AFOpenFlowView *)openFlowView centerImageIndex:(int)index;
 - (void)openFlowView:(AFOpenFlowView *)openFlowView requestImageForIndex:(int)index;
 - (UIImage *)defaultImage;
 @end

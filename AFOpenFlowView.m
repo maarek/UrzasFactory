@@ -305,8 +305,11 @@ const static CGFloat kReflectionFraction = 0.85;
 		CGPoint targetPoint = [[touches anyObject] locationInView:self];
 		CALayer *targetLayer = (CALayer *)[scrollView.layer hitTest:targetPoint];
 		AFItemView *targetCover = [self findCoverOnscreen:targetLayer];
+		
 		if (targetCover && (targetCover.number != selectedCoverView.number))
 			[self setSelectedCover:targetCover.number];
+		else if (targetCover.number == selectedCoverView.number)
+			[self.dataSource onSelectCenterImage:self centerImageIndex:selectedCoverView.number];
 	}
 	[self centerOnSelectedCover:YES];
 	

@@ -47,8 +47,8 @@
 
 -(void)slidersMoved:(id)sender {
 	UISlider *slider = (UISlider *)sender;
-	int progressAsInt = (int)(slider.value + 0.5f);
-	[cardCount setText:[NSString stringWithFormat:@"%d", progressAsInt]]; 
+	int count = (int)(slider.value + 0.5f);
+	[cardCount setText:[NSString stringWithFormat:@"%d", count]]; 
 }
 
 -(void)resetSliders:(id)sender {

@@ -17,6 +17,5 @@
 }
 
 - (void)imageDidLoad:(NSArray *)arguments;
-- (IBAction)infoButtonPressed:(id)sender;
 
 @end

@@ -42,22 +42,13 @@
 	[[UIApplication sharedApplication] setStatusBarHidden:NO animated:animated];
 }
 
-- (IBAction)infoButtonPressed:(id)sender {
-	UFAlert *prompt = [UFAlert alloc];
-    prompt = [prompt initWithTitle:@"Add Card" 
-						   message:@"..." 
-						  delegate:self 
-				 cancelButtonTitle:@"Cancel" 
-					 okButtonTitle:@"Okay"];
-    
-	[prompt show];
-    [prompt release];
-	
-}
-
 - (void)alertView:(UIAlertView *)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex {
     if (buttonIndex != [alertView cancelButtonIndex]) {
-        //NSString *entered = [(UFAlert *)alertView enteredText];
+		UFAlert *alert = (UFAlert *)alertView;
+		NSString *entered = [[alert cardCount] text];
+		
+		// Change below to handle the addition of cards
+		NSLog(@"Adding %d number of cards.", [entered intValue]);
     }
 }
 
@@ -81,6 +72,19 @@
 	return [UIImage imageNamed:@"defaultCard.png"];
 //	return [self maskImage:[UIImage imageNamed:@"Card.png"] withMask:[UIImage imageNamed:@"Mask.png"]];
 //	return [[UIImage imageNamed:@"default.jpg"] imageWithMaskNamed:@"mask.jpg"];
+}
+
+// Called when the currently displayed cover is selected
+- (void)onSelectCenterImage:(AFOpenFlowView *)openFlowView centerImageIndex:(int)index {
+	UFAlert *prompt = [UFAlert alloc];
+    prompt = [prompt initWithTitle:@"Add Card" 
+						   message:@"..." 
+						  delegate:self 
+				 cancelButtonTitle:@"Cancel" 
+					 okButtonTitle:@"Okay"];
+    
+	[prompt show];
+    [prompt release];
 }
 
 - (void)openFlowView:(AFOpenFlowView *)openFlowView requestImageForIndex:(int)index {
