@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09B355E5118E92D1001F075C /* DeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B355E3118E92D1001F075C /* DeckViewController.m */; };
+		09B35679118FF6CD001F075C /* DeckView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B35678118FF6CD001F075C /* DeckView.xib */; };
+		09B356C3119001F0001F075C /* deckContent.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B356C2119001F0001F075C /* deckContent.png */; };
 		09CCA09B11868BC1008EFCA6 /* LibraryPortraitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA09A11868BC1008EFCA6 /* LibraryPortraitView.xib */; };
 		09CCA0B111868E4C008EFCA6 /* AFItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA0AB11868E4C008EFCA6 /* AFItemView.m */; };
 		09CCA0B211868E4C008EFCA6 /* AFOpenFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA0AE11868E4C008EFCA6 /* AFOpenFlowView.m */; };
@@ -60,6 +63,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09B355E2118E92D1001F075C /* DeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckViewController.h; sourceTree = "<group>"; };
+		09B355E3118E92D1001F075C /* DeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckViewController.m; sourceTree = "<group>"; };
+		09B35678118FF6CD001F075C /* DeckView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeckView.xib; sourceTree = "<group>"; };
+		09B356C2119001F0001F075C /* deckContent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deckContent.png; sourceTree = "<group>"; };
 		09CCA09A11868BC1008EFCA6 /* LibraryPortraitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryPortraitView.xib; sourceTree = "<group>"; };
 		09CCA0AA11868E4C008EFCA6 /* AFItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFItemView.h; sourceTree = "<group>"; };
 		09CCA0AB11868E4C008EFCA6 /* AFItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFItemView.m; sourceTree = "<group>"; };
@@ -174,6 +181,8 @@
 				5B37B74F1188ECA0003884A3 /* CardViewController.h */,
 				5B37B7501188ECA0003884A3 /* CardViewController.m */,
 				09CCA52311876C47008EFCA6 /* CreditsViewController.m */,
+				09B355E2118E92D1001F075C /* DeckViewController.h */,
+				09B355E3118E92D1001F075C /* DeckViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -253,6 +262,7 @@
 				09CCA09A11868BC1008EFCA6 /* LibraryPortraitView.xib */,
 				09CCA0DE11868F23008EFCA6 /* LibraryLandscapeView.xib */,
 				09CCA52411876C47008EFCA6 /* CreditsViewController.xib */,
+				09B35678118FF6CD001F075C /* DeckView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -272,6 +282,7 @@
 		5B05D42C1136FD620011D7F3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				09B356C2119001F0001F075C /* deckContent.png */,
 				5B37B495118837B3003884A3 /* defaultCard.jpg */,
 				5B37B496118837B3003884A3 /* Mask.png */,
 				09CCA56911877684008EFCA6 /* backdropTop2.png */,
@@ -382,6 +393,8 @@
 				5B37B38711881ABB003884A3 /* UrzasFactory.sqlite in Resources */,
 				5B37B497118837B3003884A3 /* defaultCard.jpg in Resources */,
 				5B37B498118837B3003884A3 /* Mask.png in Resources */,
+				09B35679118FF6CD001F075C /* DeckView.xib in Resources */,
+				09B356C3119001F0001F075C /* deckContent.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +430,7 @@
 				5B37B7751188ED15003884A3 /* Mana.m in Sources */,
 				5B37B7761188ED15003884A3 /* Type.m in Sources */,
 				09CCA8621189D4D9008EFCA6 /* UFAlert.m in Sources */,
+				09B355E5118E92D1001F075C /* DeckViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
