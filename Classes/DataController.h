@@ -8,16 +8,46 @@
 
 #import <Foundation/Foundation.h>
 
+#define DCTooManyEntitiesReturnedException @"Too many entities returned"
+#define DCCoreDataExeption @"Core Data exception"
 
 @interface DataController : NSObject {
-	NSMutableArray *list;
 }
 
-@property (nonatomic, copy, readwrite) NSMutableArray *list;
 
-- (unsigned)countOfList; //returns number of elements in list
-- (id)objectInListAtIndex:(unsigned)theIndex; //returns object at given index
-- (void)addData:(NSString*)data; //adds data to the list
-- (void)removeDataAtIndex:(unsigned)theIndex;
+
++(NSArray *)objectsForEntityNamed:(NSString *)name
+						inContext:(NSManagedObjectContext *)context;
+
+
+// Strict predicate search
++(NSArray *)objectsForEntityNamed:(NSString *)name 
+					  matchingKey:(NSString *)key
+						 andValue:(id)value 
+						inContext:(NSManagedObjectContext *)context;
+
++(NSManagedObject *)objectForEntityNamed:(NSString *)name 
+							 matchingKey:(NSString *)key andValue:(id)value 
+							   inContext:(NSManagedObjectContext *)context;
+
++(NSArray *)objectsForEntityNamed:(NSString *)name
+			matchingKeysAndValues:(NSDictionary *)keyValues 
+						  usingOR:(BOOL)useOR
+						inContext:(NSManagedObjectContext *)context;
+
+// Loose predicate search
++(NSArray *) objectsForEntityNamed:(NSString *)name 
+					   matchingKey:(NSString *)key 
+				   containingValue:(id)value 
+						 inContext:(NSManagedObjectContext *)context;
+
++(NSArray *)objectsForEntityNamed:(NSString *)name
+			containingKeysAndValues:(NSDictionary *)keyValues 
+						  usingOR:(BOOL)useOR
+						inContext:(NSManagedObjectContext *)context;
+
+
+
+
 
 @end

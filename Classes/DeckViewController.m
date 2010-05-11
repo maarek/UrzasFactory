@@ -7,9 +7,15 @@
 //
 
 #import "DeckViewController.h"
+#import "DataController.h"
+#import "UrzasFactoryAppDelegate.h"
+#import "Deck.h"
+#import "Card.h"
 
 
 @implementation DeckViewController
+
+@synthesize deck;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -32,34 +38,116 @@
 	CGRect fullScreenRect = CGRectMake(0,0,320,416);
 	UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:fullScreenRect];
 	scrollView.contentSize = CGSizeMake(320,1248);
+	
+	// Load Deck Information
+	UrzasFactoryAppDelegate *appDelegate = (UrzasFactoryAppDelegate *)[[UIApplication sharedApplication] delegate];
+	NSManagedObjectContext *context = appDelegate.managedObjectContext;
+	NSArray *array = [DataController objectsForEntityNamed:@"Deck" 
+												 inContext:context];
+	
+	
+	NSLog(@"NSArray : %@", array);
+	
+	array = [DataController objectsForEntityNamed:@"Card" 
+									  matchingKey:@"name" 
+								  containingValue:@"Urza"
+										inContext:context];
+	
+	NSLog(@"NSArray : %@", array);
+	
+	//for (Card *card in array)
+	//	NSLog(@"Card : %@", [card.type name]);
+	
+	NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+						  @"name", @"Urza", @"type.name", @"Artifact", nil];
+	
+	array = [DataController objectsForEntityNamed:@"Card" 
+							containingKeysAndValues:dict 
+										  usingOR:NO 
+										inContext:context];
+	
+	NSLog(@"NSArray : %@",array);
 
 	
 	// Load view for content within scrollView
 	UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,1248)];
 	contentView.backgroundColor = [UIColor clearColor];
 	
-	UIImageView *contentImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"deckContent.png"]];
-	[contentView addSubview:contentImage];
-	[contentImage release];
-	
 	//********* Add content to view ***********/
-	NSString *deckName = [NSString stringWithString:@"~Deck Name~"];
-	UILabel *nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(52, 70, 300, 30)];
+	
+	CGRect lastImageFrame;
+	CGSize textConstraint = CGSizeMake(220.0, 500.0);
+	UIFont *textFont = [UIFont fontWithName:@"Trebuchet MS" size:24];
+	
+	// Deck Name //
+
+	NSString *deckName = @"Vampire Deck";
+	CGSize textSize = [deckName sizeWithFont:textFont constrainedToSize:textConstraint lineBreakMode:UILineBreakModeWordWrap];
+	
+	UILabel *nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 65, textSize.width, textSize.height)];
 	[nameLabel setBackgroundColor:[UIColor clearColor]];
-	[nameLabel setFont:[UIFont fontWithName:@"Trebuchet MS" size:24]];
+	[nameLabel setNumberOfLines:0];
+	[nameLabel setFont:textFont];
+	[nameLabel setTextAlignment:UITextAlignmentCenter];
 	[nameLabel setText:deckName];
-	[contentView addSubview:nameLabel];
+	
+	
+	NSLog(@"Label XY: %f,%f", nameLabel.frame.origin.x, nameLabel.frame.origin.y);
+	NSLog(@"Label size: %f,%f", nameLabel.frame.size.width, nameLabel.frame.size.height);
+	
+	UIImage *contentImage = [[UIImage imageNamed:@"contentBoard.png"] stretchableImageWithLeftCapWidth:0 topCapHeight:80];
+	UIImageView *contentImageView = [[UIImageView alloc] initWithImage:contentImage]; 
+	contentImageView.frame = CGRectMake((320.0 - contentImage.size.width)/2.0, 
+										0, 
+										contentImage.size.width, 
+										contentImage.size.height + textSize.height - 20);
+	
+	NSLog(@"CIV XY: %f,%f", contentImageView.frame.origin.x, contentImageView.frame.origin.y);
+	NSLog(@"CIV size: %f,%f", contentImageView.frame.size.width, contentImageView.frame.size.height);
+	
+	[contentImageView addSubview:nameLabel];
 	[nameLabel release];
 	
-	NSString *descName = [NSString stringWithString:@"~Deck Desc~"];
-	UILabel *descLabel = [[UILabel alloc] initWithFrame:CGRectMake(52, 225, 300, 30)];
+	lastImageFrame = [contentImageView frame];
+	
+	[contentView addSubview:contentImageView];
+	[contentImageView release];
+	
+	// Deck Desc //
+	textFont = [UIFont fontWithName:@"Trebuchet MS" size:18];	
+	NSString *descName = @"This is the deck description. It's a pretty cool deck.";
+	textSize = [descName sizeWithFont:textFont constrainedToSize:textConstraint lineBreakMode:UILineBreakModeWordWrap];
+	
+	UILabel *descLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 65, textSize.width, textSize.height)];
 	[descLabel setBackgroundColor:[UIColor clearColor]];
-	[descLabel setFont:[UIFont fontWithName:@"Trebuchet MS" size:16]];
+	[descLabel	setNumberOfLines:0];
+	[descLabel setFont:textFont];
 	[descLabel setText:descName];
-	[contentView addSubview:descLabel];
+	
+	NSLog(@"Label XY: %f,%f", descLabel.frame.origin.x, descLabel.frame.origin.y);
+	NSLog(@"Label size: %f,%f", descLabel.frame.size.width, descLabel.frame.size.height);
+	
+	contentImage = [[UIImage imageNamed:@"contentBoard.png"] stretchableImageWithLeftCapWidth:0 topCapHeight:80];
+	contentImageView = [[UIImageView alloc] initWithImage:contentImage];
+	contentImageView.frame = CGRectMake((320.0 - contentImage.size.width)/2.0, 
+										lastImageFrame.size.height + lastImageFrame.origin.y, 
+										contentImage.size.width, 
+										contentImage.size.height + textSize.height);
+	
+	NSLog(@"CIV XY: %f,%f", contentImageView.frame.origin.x, contentImageView.frame.origin.y);
+	NSLog(@"CIV size: %f,%f", contentImageView.frame.size.width, contentImageView.frame.size.height);
+	
+	[contentImageView addSubview:descLabel];
 	[descLabel release];
 	
+	lastImageFrame = [contentImageView frame];
+	
+	[contentView addSubview:contentImageView];
+	[contentImageView release];
+	
+	
 	// Main Deck Cards
+	
 	
 	// SideBoard Cards
 	

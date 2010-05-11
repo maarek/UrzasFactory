@@ -16,7 +16,6 @@
 
 @implementation LibraryPortraitViewController
 
-@synthesize dataController;
 @synthesize sBar;
 @synthesize landscapeViewController;
 @synthesize fetchedResultsController = _fetchedResultsController;
@@ -45,8 +44,6 @@
         [alert show];
 		
 	}
-	
-	//	self.dataController = [[DataController alloc] init];
 	
 	// create and configure the view
 	//UFView * deckView = [[UFView alloc] initWithFrame:self.navigationController.view.frame];
