@@ -2,34 +2,44 @@
 //  Card.m
 //  UrzasFactory
 //
-//  Created by Cameron Knight on 4/28/10.
+//  Created by Cameron Knight on 5/12/10.
 //  Copyright 2010 Moblico. All rights reserved.
 //
 
 #import "Card.h"
 
 #import "Artist.h"
-#import "Deck.h"
+#import "CardItem.h"
 #import "Expansion.h"
 #import "Mana.h"
+#import "ManaItem.h"
+#import "Subtype.h"
 #import "Type.h"
 
 @implementation Card 
 
-@dynamic flavor;
-@dynamic power;
-@dynamic multiverseID;
+@dynamic multiPart;
 @dynamic convertedManaCost;
-@dynamic text;
-@dynamic toughness;
+@dynamic part;
+@dynamic subtypeString;
 @dynamic loyalty;
 @dynamic name;
+@dynamic typeString;
+@dynamic number;
+@dynamic multiverseID;
+@dynamic power;
+@dynamic toughness;
+@dynamic text;
 @dynamic rarity;
+@dynamic flavor;
+@dynamic decks;
+@dynamic expansion;
+@dynamic subtypes;
+@dynamic types;
+@dynamic manaItems;
+@dynamic artist;
 @dynamic otherSets;
 @dynamic manas;
-@dynamic decks;
-@dynamic type;
-@dynamic expansion;
-@dynamic artist;
+@dynamic otherPart;
 
 @end

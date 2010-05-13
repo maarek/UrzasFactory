@@ -2,13 +2,13 @@
 //  Deck.m
 //  UrzasFactory
 //
-//  Created by Cameron Knight on 4/28/10.
+//  Created by Cameron Knight on 5/12/10.
 //  Copyright 2010 Moblico. All rights reserved.
 //
 
 #import "Deck.h"
 
-#import "Card.h"
+#import "CardItem.h"
 
 @implementation Deck 
 

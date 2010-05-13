@@ -2,7 +2,7 @@
 //  Type.h
 //  UrzasFactory
 //
-//  Created by Cameron Knight on 4/28/10.
+//  Created by Cameron Knight on 5/12/10.
 //  Copyright 2010 Moblico. All rights reserved.
 //
 
@@ -16,8 +16,6 @@
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSSet* cards;
-@property (nonatomic, retain) NSSet* children;
-@property (nonatomic, retain) Type * parent;
 
 @end
 
@@ -27,11 +25,6 @@
 - (void)removeCardsObject:(Card *)value;
 - (void)addCards:(NSSet *)value;
 - (void)removeCards:(NSSet *)value;
-
-- (void)addChildrenObject:(Type *)value;
-- (void)removeChildrenObject:(Type *)value;
-- (void)addChildren:(NSSet *)value;
-- (void)removeChildren:(NSSet *)value;
 
 @end
 

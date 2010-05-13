@@ -53,12 +53,15 @@
 		5B37B497118837B3003884A3 /* defaultCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B37B495118837B3003884A3 /* defaultCard.jpg */; };
 		5B37B498118837B3003884A3 /* Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B37B496118837B3003884A3 /* Mask.png */; };
 		5B37B7511188ECA0003884A3 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B7501188ECA0003884A3 /* CardViewController.m */; };
-		5B37B7711188ED15003884A3 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B7661188ED15003884A3 /* Artist.m */; };
-		5B37B7721188ED15003884A3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B7681188ED15003884A3 /* Card.m */; };
-		5B37B7731188ED15003884A3 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B76A1188ED15003884A3 /* Deck.m */; };
-		5B37B7741188ED15003884A3 /* Expansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B76C1188ED15003884A3 /* Expansion.m */; };
-		5B37B7751188ED15003884A3 /* Mana.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B76E1188ED15003884A3 /* Mana.m */; };
-		5B37B7761188ED15003884A3 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37B7701188ED15003884A3 /* Type.m */; };
+		5B54366E119B76E2007DE23D /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B54365D119B76E2007DE23D /* Artist.m */; };
+		5B54366F119B76E2007DE23D /* Subtype.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B54365F119B76E2007DE23D /* Subtype.m */; };
+		5B543670119B76E2007DE23D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B543661119B76E2007DE23D /* Card.m */; };
+		5B543671119B76E2007DE23D /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B543663119B76E2007DE23D /* Deck.m */; };
+		5B543672119B76E2007DE23D /* Expansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B543665119B76E2007DE23D /* Expansion.m */; };
+		5B543673119B76E2007DE23D /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B543667119B76E2007DE23D /* Type.m */; };
+		5B543674119B76E2007DE23D /* ManaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B543669119B76E2007DE23D /* ManaItem.m */; };
+		5B543675119B76E2007DE23D /* Mana.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B54366B119B76E2007DE23D /* Mana.m */; };
+		5B543676119B76E2007DE23D /* CardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B54366D119B76E2007DE23D /* CardItem.m */; };
 		5B5EC98E1138A2DD003DE3BE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5EC98D1138A2DD003DE3BE /* Icon.png */; };
 		5B5ECA281139B53C003DE3BE /* UFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5ECA271139B53C003DE3BE /* UFTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -130,18 +133,24 @@
 		5B37B496118837B3003884A3 /* Mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mask.png; sourceTree = SOURCE_ROOT; };
 		5B37B74F1188ECA0003884A3 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
 		5B37B7501188ECA0003884A3 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
-		5B37B7651188ED15003884A3 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
-		5B37B7661188ED15003884A3 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
-		5B37B7671188ED15003884A3 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		5B37B7681188ED15003884A3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		5B37B7691188ED15003884A3 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
-		5B37B76A1188ED15003884A3 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
-		5B37B76B1188ED15003884A3 /* Expansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expansion.h; sourceTree = "<group>"; };
-		5B37B76C1188ED15003884A3 /* Expansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expansion.m; sourceTree = "<group>"; };
-		5B37B76D1188ED15003884A3 /* Mana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mana.h; sourceTree = "<group>"; };
-		5B37B76E1188ED15003884A3 /* Mana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mana.m; sourceTree = "<group>"; };
-		5B37B76F1188ED15003884A3 /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
-		5B37B7701188ED15003884A3 /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
+		5B54365C119B76E2007DE23D /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		5B54365D119B76E2007DE23D /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		5B54365E119B76E2007DE23D /* Subtype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subtype.h; sourceTree = "<group>"; };
+		5B54365F119B76E2007DE23D /* Subtype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subtype.m; sourceTree = "<group>"; };
+		5B543660119B76E2007DE23D /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		5B543661119B76E2007DE23D /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		5B543662119B76E2007DE23D /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		5B543663119B76E2007DE23D /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		5B543664119B76E2007DE23D /* Expansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expansion.h; sourceTree = "<group>"; };
+		5B543665119B76E2007DE23D /* Expansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expansion.m; sourceTree = "<group>"; };
+		5B543666119B76E2007DE23D /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		5B543667119B76E2007DE23D /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
+		5B543668119B76E2007DE23D /* ManaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManaItem.h; sourceTree = "<group>"; };
+		5B543669119B76E2007DE23D /* ManaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManaItem.m; sourceTree = "<group>"; };
+		5B54366A119B76E2007DE23D /* Mana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mana.h; sourceTree = "<group>"; };
+		5B54366B119B76E2007DE23D /* Mana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mana.m; sourceTree = "<group>"; };
+		5B54366C119B76E2007DE23D /* CardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardItem.h; sourceTree = "<group>"; };
+		5B54366D119B76E2007DE23D /* CardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardItem.m; sourceTree = "<group>"; };
 		5B5EC98D1138A2DD003DE3BE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		5B5ECA261139B53C003DE3BE /* UFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFTableViewController.h; sourceTree = "<group>"; };
 		5B5ECA271139B53C003DE3BE /* UFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFTableViewController.m; sourceTree = "<group>"; };
@@ -306,18 +315,24 @@
 		5B37B7641188ED15003884A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5B37B7651188ED15003884A3 /* Artist.h */,
-				5B37B7661188ED15003884A3 /* Artist.m */,
-				5B37B7671188ED15003884A3 /* Card.h */,
-				5B37B7681188ED15003884A3 /* Card.m */,
-				5B37B7691188ED15003884A3 /* Deck.h */,
-				5B37B76A1188ED15003884A3 /* Deck.m */,
-				5B37B76B1188ED15003884A3 /* Expansion.h */,
-				5B37B76C1188ED15003884A3 /* Expansion.m */,
-				5B37B76D1188ED15003884A3 /* Mana.h */,
-				5B37B76E1188ED15003884A3 /* Mana.m */,
-				5B37B76F1188ED15003884A3 /* Type.h */,
-				5B37B7701188ED15003884A3 /* Type.m */,
+				5B54365C119B76E2007DE23D /* Artist.h */,
+				5B54365D119B76E2007DE23D /* Artist.m */,
+				5B54365E119B76E2007DE23D /* Subtype.h */,
+				5B54365F119B76E2007DE23D /* Subtype.m */,
+				5B543660119B76E2007DE23D /* Card.h */,
+				5B543661119B76E2007DE23D /* Card.m */,
+				5B543662119B76E2007DE23D /* Deck.h */,
+				5B543663119B76E2007DE23D /* Deck.m */,
+				5B543664119B76E2007DE23D /* Expansion.h */,
+				5B543665119B76E2007DE23D /* Expansion.m */,
+				5B543666119B76E2007DE23D /* Type.h */,
+				5B543667119B76E2007DE23D /* Type.m */,
+				5B543668119B76E2007DE23D /* ManaItem.h */,
+				5B543669119B76E2007DE23D /* ManaItem.m */,
+				5B54366A119B76E2007DE23D /* Mana.h */,
+				5B54366B119B76E2007DE23D /* Mana.m */,
+				5B54366C119B76E2007DE23D /* CardItem.h */,
+				5B54366D119B76E2007DE23D /* CardItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -427,14 +442,17 @@
 				09CCA52511876C47008EFCA6 /* CreditsViewController.m in Sources */,
 				09CCA67911879A3F008EFCA6 /* DataController.m in Sources */,
 				5B37B7511188ECA0003884A3 /* CardViewController.m in Sources */,
-				5B37B7711188ED15003884A3 /* Artist.m in Sources */,
-				5B37B7721188ED15003884A3 /* Card.m in Sources */,
-				5B37B7731188ED15003884A3 /* Deck.m in Sources */,
-				5B37B7741188ED15003884A3 /* Expansion.m in Sources */,
-				5B37B7751188ED15003884A3 /* Mana.m in Sources */,
-				5B37B7761188ED15003884A3 /* Type.m in Sources */,
 				09CCA8621189D4D9008EFCA6 /* UFAlert.m in Sources */,
 				09B355E5118E92D1001F075C /* DeckViewController.m in Sources */,
+				5B54366E119B76E2007DE23D /* Artist.m in Sources */,
+				5B54366F119B76E2007DE23D /* Subtype.m in Sources */,
+				5B543670119B76E2007DE23D /* Card.m in Sources */,
+				5B543671119B76E2007DE23D /* Deck.m in Sources */,
+				5B543672119B76E2007DE23D /* Expansion.m in Sources */,
+				5B543673119B76E2007DE23D /* Type.m in Sources */,
+				5B543674119B76E2007DE23D /* ManaItem.m in Sources */,
+				5B543675119B76E2007DE23D /* Mana.m in Sources */,
+				5B543676119B76E2007DE23D /* CardItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

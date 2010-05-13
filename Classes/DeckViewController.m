@@ -59,7 +59,7 @@
 	//	NSLog(@"Card : %@", [card.type name]);
 	
 	NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
-						  @"name", @"Urza", @"type.name", @"Artifact", nil];
+						  @"name", @"Urza", @"typeString", @"Artifact", nil];
 	
 	array = [DataController objectsForEntityNamed:@"Card" 
 							containingKeysAndValues:dict 

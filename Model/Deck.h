@@ -2,13 +2,13 @@
 //  Deck.h
 //  UrzasFactory
 //
-//  Created by Cameron Knight on 4/28/10.
+//  Created by Cameron Knight on 5/12/10.
 //  Copyright 2010 Moblico. All rights reserved.
 //
 
 #import <CoreData/CoreData.h>
 
-@class Card;
+@class CardItem;
 
 @interface Deck :  NSManagedObject  
 {
@@ -22,8 +22,8 @@
 
 
 @interface Deck (CoreDataGeneratedAccessors)
-- (void)addCardsObject:(Card *)value;
-- (void)removeCardsObject:(Card *)value;
+- (void)addCardsObject:(CardItem *)value;
+- (void)removeCardsObject:(CardItem *)value;
 - (void)addCards:(NSSet *)value;
 - (void)removeCards:(NSSet *)value;
 

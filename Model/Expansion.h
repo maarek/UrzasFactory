@@ -2,7 +2,7 @@
 //  Expansion.h
 //  UrzasFactory
 //
-//  Created by Cameron Knight on 4/28/10.
+//  Created by Cameron Knight on 5/12/10.
 //  Copyright 2010 Moblico. All rights reserved.
 //
 
@@ -16,16 +16,16 @@
 
 @property (nonatomic, retain) NSString * abbreviation;
 @property (nonatomic, retain) NSString * name;
-@property (nonatomic, retain) NSSet* card;
+@property (nonatomic, retain) NSSet* cards;
 
 @end
 
 
 @interface Expansion (CoreDataGeneratedAccessors)
-- (void)addCardObject:(Card *)value;
-- (void)removeCardObject:(Card *)value;
-- (void)addCard:(NSSet *)value;
-- (void)removeCard:(NSSet *)value;
+- (void)addCardsObject:(Card *)value;
+- (void)removeCardsObject:(Card *)value;
+- (void)addCards:(NSSet *)value;
+- (void)removeCards:(NSSet *)value;
 
 @end
 
