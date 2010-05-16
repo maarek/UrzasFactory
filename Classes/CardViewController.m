@@ -44,6 +44,7 @@
 	self.fields = dict;
 	[self.tableView reloadData];
 }
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 	[self.navigationController setNavigationBarHidden:NO animated:animated];
@@ -87,18 +88,28 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellIdentifier] autorelease];
     }
+	
     cell.backgroundColor = [UIColor colorWithHue:0 saturation:0.5 brightness:0.5 alpha:0.5];
 	NSString * text = nil;
 	NSString * detail = nil;
+	
 	if ([[[fields allKeys] objectAtIndex:indexPath.row] isKindOfClass:[NSString class]]) {
 		text = [[fields allKeys] objectAtIndex:indexPath.row];
 	} else {
 		text = [[[fields allKeys] objectAtIndex:indexPath.row] stringValue];
 	}
+	
 	if ([[[fields allValues] objectAtIndex:indexPath.row] isKindOfClass:[NSString class]]) {
 		detail = [[fields allValues] objectAtIndex:indexPath.row];
+	} else if ([[[fields allValues] objectAtIndex:indexPath.row] isKindOfClass:[NSData class]]) {
+		NSString *stringFromData = [[NSString alloc]  initWithBytes:[[[fields allValues] objectAtIndex:indexPath.row] bytes]
+															 length:[[[fields allValues] objectAtIndex:indexPath.row] length] 
+														   encoding:NSUTF8StringEncoding];
+		detail = [NSString stringWithString:stringFromData];
+		[stringFromData release];
+
 	} else {
-		detail = [[[fields allValues] objectAtIndex:indexPath.row] stringValue];
+		detail = [NSString stringWithString:[[[fields allValues] objectAtIndex:indexPath.row] stringValue]];
 	}
 	
 	cell.textLabel.text = text;

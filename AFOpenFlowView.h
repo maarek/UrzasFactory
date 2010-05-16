@@ -32,7 +32,7 @@
 
 @interface AFOpenFlowView : UIView {
 	id <AFOpenFlowViewDataSource>	dataSource;
-	id <AFOpenFlowViewDelegate>	viewDelegate;
+	id <AFOpenFlowViewDelegate>		viewDelegate;
 	NSMutableSet					*offscreenCovers;
 	NSMutableDictionary				*onscreenCovers;
 	NSMutableDictionary				*coverImages;
