@@ -36,7 +36,7 @@
 						inContext:(NSManagedObjectContext *)context;
 
 // Loose predicate search
-+(NSArray *) objectsForEntityNamed:(NSString *)name 
++(NSArray *)objectsForEntityNamed:(NSString *)name 
 					   matchingKey:(NSString *)key 
 				   containingValue:(id)value 
 						 inContext:(NSManagedObjectContext *)context;
@@ -46,6 +46,14 @@
 						  usingOR:(BOOL)useOR
 						inContext:(NSManagedObjectContext *)context;
 
++(NSFetchRequest *)requestForEntityNamed:(NSString *)name 
+				  containingKeyAndValues:(NSDictionary *)keyValues 
+								 usingOR:(BOOL)useOR 
+					 withSortDescriptors:(NSArray *)sortDescriptorStrings
+							   inContext:(NSManagedObjectContext *)context;
+
++(NSPredicate *)predicateContainingKeyAndValues:(NSDictionary *)keyValues 
+										usingOR:(BOOL)useOR;
 
 
 

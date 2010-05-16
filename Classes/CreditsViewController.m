@@ -30,6 +30,7 @@
 -(void)viewWillAppear:(BOOL)animated {
 	[self.navigationController setNavigationBarHidden:NO animated:animated];
 }
+
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

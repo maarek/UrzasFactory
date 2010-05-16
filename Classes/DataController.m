@@ -195,7 +195,7 @@
 	// Since NSString and NSPredicate use different format strings,
 	// we use a two-step process to create our format string here
 	NSString *predString = [NSString stringWithFormat:
-							@"%@ CONTAINS %%@", key];
+							@"ANY %@ LIKE %%@", key];
 	NSPredicate *pred = [NSPredicate 
 						 predicateWithFormat:predString, value];
 	
@@ -280,6 +280,100 @@
 	
 	[req release];
 	return array;
+}
+
++(NSFetchRequest *)requestForEntityNamed:(NSString *)name 
+				  containingKeyAndValues:(NSDictionary *)keyValues 
+								 usingOR:(BOOL)useOR 
+					 withSortDescriptors:(NSArray *)sortDescriptorStrings
+							   inContext:(NSManagedObjectContext *)context
+{
+	NSEnumerator *e = [keyValues keyEnumerator];
+	NSPredicate *pred = nil;
+    NSString *key;
+    
+	while (key = [e nextObject]) 
+	{
+		// Declare a format string for creating the current subpredicate
+		NSString *predString = [NSString stringWithFormat:@"ANY %@ LIKE %%@", [keyValues objectForKey:key]];
+		
+		// First time through, pred is nil and shouldn't be compounded with anything
+		if (pred == nil)
+			pred = [NSPredicate predicateWithFormat:predString, 
+					key];
+		else
+		{
+			// if pred is not nil, then create a compound based on the new
+			// subpredicate tempPred and the existing predicate pred
+			
+			NSPredicate *tempPred = [NSPredicate 
+									 predicateWithFormat:predString, 
+									 key];
+			NSArray *array = [NSArray arrayWithObjects:tempPred, 
+							  pred, nil];
+            if (useOR)
+				pred = [NSCompoundPredicate orPredicateWithSubpredicates:array];
+			else
+				pred = [NSCompoundPredicate andPredicateWithSubpredicates:array]; 
+		}
+	}
+	
+	NSEntityDescription *entity = [NSEntityDescription 
+								   entityForName:name inManagedObjectContext:context];
+	
+	NSMutableArray *sortDescriptors = [[NSMutableArray alloc] init];
+	NSString *descriptor;
+	
+	for (descriptor in sortDescriptorStrings) {
+		NSSortDescriptor *desc = [[NSSortDescriptor alloc] initWithKey:descriptor ascending:YES];
+		[sortDescriptors addObject:desc];
+		[desc release];
+	}
+		
+	
+	
+	NSFetchRequest *req = [[[NSFetchRequest alloc] init] autorelease];
+	[req setEntity:entity];	
+	[req setPredicate:pred];
+	[req setSortDescriptors:sortDescriptors];
+	
+	[sortDescriptors release];
+	return req;
+}
+
++(NSPredicate *)predicateContainingKeyAndValues:(NSDictionary *)keyValues 
+										usingOR:(BOOL)useOR {
+	NSEnumerator *e = [keyValues keyEnumerator];
+	NSPredicate *pred = nil;
+    NSString *key;
+    
+	while (key = [e nextObject]) 
+	{
+		// Declare a format string for creating the current subpredicate
+		NSString *predString = [NSString stringWithFormat:@"ANY %@ LIKE %%@", [keyValues objectForKey:key]];
+		
+		// First time through, pred is nil and shouldn't be compounded with anything
+		if (pred == nil)
+			pred = [NSPredicate predicateWithFormat:predString, 
+					key];
+		else
+		{
+			// if pred is not nil, then create a compound based on the new
+			// subpredicate tempPred and the existing predicate pred
+			
+			NSPredicate *tempPred = [NSPredicate 
+									 predicateWithFormat:predString, 
+									 key];
+			NSArray *array = [NSArray arrayWithObjects:tempPred, 
+							  pred, nil];
+            if (useOR)
+				pred = [NSCompoundPredicate orPredicateWithSubpredicates:array];
+			else
+				pred = [NSCompoundPredicate andPredicateWithSubpredicates:array]; 
+		}
+	}
+	
+	return pred;
 }
 
 @end
