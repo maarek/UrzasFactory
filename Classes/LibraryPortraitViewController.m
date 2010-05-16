@@ -14,19 +14,16 @@
 #import "Card.h"
 #import "CardViewController.h"
 
+
 @implementation LibraryPortraitViewController
 
+@synthesize tView;
 @synthesize sBar;
+@synthesize fetchRequest;
 @synthesize landscapeViewController;
 @synthesize fetchedResultsController = _fetchedResultsController;
-/*
-- (id)initWithStyle:(UITableViewStyle)style {
-    // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-    if (self = [super initWithStyle:style]) {
-    }
-    return self;
-}
-*/
+@synthesize predicateDictionary;
+
 
 -(void)viewWillAppear:(BOOL)animated {
 	[self.navigationController setNavigationBarHidden:NO animated:animated];
@@ -34,6 +31,9 @@
 
 - (void)viewDidLoad {
 	NSError *error = nil;
+	fetchOffset = 0;
+	fetchRequest = [[NSFetchRequest alloc] init];
+	_fetchedResultsController = nil;
 	
 	if (![[self fetchedResultsController] performFetch:&error]) {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error loading data", @"Error loading data") 
@@ -44,6 +44,8 @@
         [alert show];
 		
 	}
+	
+
 	
 	// create and configure the view
 	//UFView * deckView = [[UFView alloc] initWithFrame:self.navigationController.view.frame];
@@ -90,6 +92,7 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
     [landscapeViewController release];
+	[fetchRequest release];
     [super dealloc];	
 }
 
@@ -113,16 +116,27 @@
 }
 
 - (void)filterAction:(id)sender {
-	NSString *alertString;
+	FilterViewController *filterView = [[FilterViewController alloc] initWithNibName:@"FilterViewController" bundle:nil];
+	filterView.delegate = self;
 	
-	alertString = @"Sample images included in this project are all in the public domain, courtesy of NASA.";
-	UIAlertView *infoAlertPanel = [[UIAlertView alloc] initWithTitle:@"OpenFlow Demo App" 
-															 message:[NSString stringWithFormat:@"%@\n\nFor more info about the OpenFlow API, visit apparentlogic.com.", alertString]
-															delegate:nil 
-												   cancelButtonTitle:nil 
-												   otherButtonTitles:@"Dismiss", nil];
-	[infoAlertPanel show];
-	[infoAlertPanel release];
+	UINavigationController *filterNavigationController = [[UINavigationController alloc] initWithRootViewController:filterView];
+	
+	[self presentModalViewController:filterNavigationController animated:YES];
+	
+	[filterNavigationController release];
+	[filterView release];
+}
+
+- (void) updatePredicateDictionary:(NSMutableDictionary *)buttonStateDictionary {
+	// Key manaType Value YES/NO
+	predicateDictionary = [buttonStateDictionary copy];
+}
+
+- (void) modalDialogFinished:(id)sender {
+	// Refresh the Table
+	[self refreshTableData];
+	// Release the Modal View
+	[self dismissModalViewControllerAnimated:YES];
 }
 
 // Override to allow orientations other than the default portrait orientation.
@@ -141,26 +155,27 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    NSUInteger count = [[self.fetchedResultsController sections] count];
+    NSUInteger count = [[_fetchedResultsController sections] count];
     return (count == 0) ? 1 : count;
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSArray *sections = [self.fetchedResultsController sections];
+    NSArray *sections = [_fetchedResultsController sections];
     NSUInteger count = 0;
     if ([sections count]) {
         id <NSFetchedResultsSectionInfo> sectionInfo = [sections objectAtIndex:section];
         count = [sectionInfo numberOfObjects];
     }
+	
     return count;	
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+	
 	//Try to get rusable cell
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CellIdentifier"];
 	if (cell == nil) {
@@ -175,22 +190,24 @@
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	
-	Card *card = [self.fetchedResultsController objectAtIndexPath:indexPath];
-
+	Card *card = [_fetchedResultsController objectAtIndexPath:indexPath];
 	[cell.textLabel setText:[card valueForKey:@"name"]];
+	
+	NSLog(@"Card with name %@: %@",[card valueForKey:@"name"], card);
 
 	return cell;
 }
 
-
+// Header titles
 - (NSString *)tableView:(UITableView *)tableView  titleForHeaderInSection:(NSInteger)section {
     // Display the dates as section headings.
-    return [[[[self fetchedResultsController] sections] objectAtIndex:section] name];
+    return [[[_fetchedResultsController sections] objectAtIndex:section] name];
 }
 
+// Selecting an item on the table view
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	CardViewController * viewController = [[CardViewController alloc] init];
-	Card *card = [self.fetchedResultsController objectAtIndexPath:indexPath];
+	Card *card = [_fetchedResultsController objectAtIndexPath:indexPath];
 	viewController.card = card;
 	[self.navigationController pushViewController:viewController animated:YES];
 	[viewController release];
@@ -237,34 +254,31 @@
 */
 
 - (NSFetchedResultsController *)fetchedResultsController {
-    
-    if (_fetchedResultsController != nil) {
+   
+	/*if (_fetchedResultsController != nil) {
         return _fetchedResultsController;
-    }
-    
-	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-    
+    }*/
+	
     // The typecast on the next line is not ordinarily necessary, however without it, we get a warning about
     // the returned object not conforming to UITabBarDelegate. The typecast quiets the warning so we get
     // a clean build.
     UrzasFactoryAppDelegate *appDelegate = (UrzasFactoryAppDelegate *)[[UIApplication sharedApplication] delegate];
     NSManagedObjectContext *managedObjectContext = appDelegate.managedObjectContext;
-	
-    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Card" inManagedObjectContext:managedObjectContext];
     
+	//predicateDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"manas.name", @"Green", nil];
         
     NSString *sectionKey = nil;
-	NSSortDescriptor *sortDescriptor1 = [[NSSortDescriptor alloc] initWithKey:@"expansion.name" ascending:YES];
-	NSSortDescriptor *sortDescriptor2 = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
-	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor1, sortDescriptor2, nil];
-//	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor1, nil];
-            [fetchRequest setSortDescriptors:sortDescriptors];
-            [sortDescriptor1 release];
-            [sortDescriptor2 release];
-            [sortDescriptors release];
-            sectionKey = @"expansion.name";
-   	[fetchRequest setEntity:entity];
-	[fetchRequest setFetchBatchSize:20];
+	fetchRequest = [DataController requestForEntityNamed:@"Card" 
+								  containingKeyAndValues:predicateDictionary
+												 usingOR:YES 
+									 withSortDescriptors:[NSArray arrayWithObjects:@"expansion.name", @"name", nil] 
+											   inContext:managedObjectContext];
+	[fetchRequest setFetchBatchSize:15];
+	[fetchRequest setReturnsDistinctResults:YES];
+	[fetchRequest setResultType:NSManagedObjectResultType]; // NSDictionaryResultType];
+	[fetchRequest setPropertiesToFetch:[NSArray arrayWithObjects:@"name", @"expansion", nil]];
+	[fetchRequest setRelationshipKeyPathsForPrefetching:[NSArray arrayWithObject:@"manaItems"]];
+	sectionKey = @"expansion.name";
     
 	
 	NSFetchedResultsController *frc = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest    
@@ -274,9 +288,27 @@
     frc.delegate = self;
     _fetchedResultsController = frc;
     
-	[fetchRequest release];
-    
 	return _fetchedResultsController;
 }  
+
+- (void)refreshTableData {
+	// Refresh the Table
+	NSError *error = nil;
+	
+	[fetchRequest setPredicate:[DataController predicateContainingKeyAndValues:predicateDictionary usingOR:YES]];
+	
+	if (![_fetchedResultsController performFetch:&error]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error loading data", @"Error loading data") 
+                                                        message:[NSString stringWithFormat:@"Error was: %@, quitting.", [error localizedDescription]]
+                                                       delegate:self 
+                                              cancelButtonTitle:NSLocalizedString(@"Aw, Nuts", @"Aw, Nuts")
+                                              otherButtonTitles:nil];
+        [alert show];
+		
+	}
+	
+	[tView reloadData];
+}
+
 @end
 

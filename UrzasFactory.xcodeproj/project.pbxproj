@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093540DD119B890700E68A55 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093540DB119B890700E68A55 /* FilterViewController.m */; };
+		093540DE119B890700E68A55 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093540DC119B890700E68A55 /* FilterViewController.xib */; };
+		093540FB119BE3A000E68A55 /* ForestBright.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540ED119BE3A000E68A55 /* ForestBright.png */; };
+		093540FC119BE3A000E68A55 /* ForestShaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540EE119BE3A000E68A55 /* ForestShaded.png */; };
+		093540FD119BE3A000E68A55 /* IslandBright.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540EF119BE3A000E68A55 /* IslandBright.png */; };
+		093540FE119BE3A000E68A55 /* IslandShaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F0119BE3A000E68A55 /* IslandShaded.png */; };
+		093540FF119BE3A000E68A55 /* LandBright.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F1119BE3A000E68A55 /* LandBright.png */; };
+		09354100119BE3A000E68A55 /* LandShaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F2119BE3A000E68A55 /* LandShaded.png */; };
+		09354101119BE3A000E68A55 /* MountainBright.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F3119BE3A000E68A55 /* MountainBright.png */; };
+		09354102119BE3A000E68A55 /* MountainShaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F4119BE3A000E68A55 /* MountainShaded.png */; };
+		09354103119BE3A000E68A55 /* OtherBright.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F5119BE3A000E68A55 /* OtherBright.png */; };
+		09354104119BE3A000E68A55 /* OtherShaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F6119BE3A000E68A55 /* OtherShaded.png */; };
+		09354105119BE3A000E68A55 /* PlainsBright.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F7119BE3A000E68A55 /* PlainsBright.png */; };
+		09354106119BE3A000E68A55 /* PlainsShaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F8119BE3A000E68A55 /* PlainsShaded.png */; };
+		09354107119BE3A000E68A55 /* SwampBright.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540F9119BE3A000E68A55 /* SwampBright.png */; };
+		09354108119BE3A000E68A55 /* SwampShaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 093540FA119BE3A000E68A55 /* SwampShaded.png */; };
+		093547FA119E828A00E68A55 /* LibraryPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093547F9119E828A00E68A55 /* LibraryPortraitViewController.m */; };
 		09B355E5118E92D1001F075C /* DeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B355E3118E92D1001F075C /* DeckViewController.m */; };
 		09B35679118FF6CD001F075C /* DeckView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B35678118FF6CD001F075C /* DeckView.xib */; };
 		09B356C3119001F0001F075C /* deckContent.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B356C2119001F0001F075C /* deckContent.png */; };
@@ -21,7 +38,6 @@
 		09CCA12E11869322008EFCA6 /* AFGetImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA12D11869322008EFCA6 /* AFGetImageOperation.m */; };
 		09CCA1311186933C008EFCA6 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA1301186933C008EFCA6 /* UIImageExtras.m */; };
 		09CCA13311869357008EFCA6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CCA13211869357008EFCA6 /* CFNetwork.framework */; };
-		09CCA13E118694A5008EFCA6 /* LibraryPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */; };
 		09CCA45511875F14008EFCA6 /* UINavigationBar+CustomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */; };
 		09CCA45811875FBF008EFCA6 /* awardback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA45611875FBF008EFCA6 /* awardback.jpg */; };
 		09CCA45911875FBF008EFCA6 /* backdrop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09CCA45711875FBF008EFCA6 /* backdrop.jpg */; };
@@ -67,6 +83,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093540DA119B890700E68A55 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		093540DB119B890700E68A55 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		093540DC119B890700E68A55 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FilterViewController.xib; path = Classes/FilterViewController.xib; sourceTree = "<group>"; };
+		093540ED119BE3A000E68A55 /* ForestBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ForestBright.png; path = ManaIcons/ForestBright.png; sourceTree = "<group>"; };
+		093540EE119BE3A000E68A55 /* ForestShaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ForestShaded.png; path = ManaIcons/ForestShaded.png; sourceTree = "<group>"; };
+		093540EF119BE3A000E68A55 /* IslandBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IslandBright.png; path = ManaIcons/IslandBright.png; sourceTree = "<group>"; };
+		093540F0119BE3A000E68A55 /* IslandShaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IslandShaded.png; path = ManaIcons/IslandShaded.png; sourceTree = "<group>"; };
+		093540F1119BE3A000E68A55 /* LandBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LandBright.png; path = ManaIcons/LandBright.png; sourceTree = "<group>"; };
+		093540F2119BE3A000E68A55 /* LandShaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LandShaded.png; path = ManaIcons/LandShaded.png; sourceTree = "<group>"; };
+		093540F3119BE3A000E68A55 /* MountainBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MountainBright.png; path = ManaIcons/MountainBright.png; sourceTree = "<group>"; };
+		093540F4119BE3A000E68A55 /* MountainShaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MountainShaded.png; path = ManaIcons/MountainShaded.png; sourceTree = "<group>"; };
+		093540F5119BE3A000E68A55 /* OtherBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OtherBright.png; path = ManaIcons/OtherBright.png; sourceTree = "<group>"; };
+		093540F6119BE3A000E68A55 /* OtherShaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OtherShaded.png; path = ManaIcons/OtherShaded.png; sourceTree = "<group>"; };
+		093540F7119BE3A000E68A55 /* PlainsBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlainsBright.png; path = ManaIcons/PlainsBright.png; sourceTree = "<group>"; };
+		093540F8119BE3A000E68A55 /* PlainsShaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlainsShaded.png; path = ManaIcons/PlainsShaded.png; sourceTree = "<group>"; };
+		093540F9119BE3A000E68A55 /* SwampBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SwampBright.png; path = ManaIcons/SwampBright.png; sourceTree = "<group>"; };
+		093540FA119BE3A000E68A55 /* SwampShaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SwampShaded.png; path = ManaIcons/SwampShaded.png; sourceTree = "<group>"; };
+		093547F9119E828A00E68A55 /* LibraryPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryPortraitViewController.m; sourceTree = "<group>"; };
 		09B355E2118E92D1001F075C /* DeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckViewController.h; sourceTree = "<group>"; };
 		09B355E3118E92D1001F075C /* DeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckViewController.m; sourceTree = "<group>"; };
 		09B35678118FF6CD001F075C /* DeckView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeckView.xib; sourceTree = "<group>"; };
@@ -90,7 +124,6 @@
 		09CCA1301186933C008EFCA6 /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImageExtras.m; path = Classes/UIImageExtras.m; sourceTree = "<group>"; };
 		09CCA13211869357008EFCA6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		09CCA13C118694A5008EFCA6 /* LibraryPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryPortraitViewController.h; sourceTree = "<group>"; };
-		09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryPortraitViewController.m; sourceTree = "<group>"; };
 		09CCA45311875F14008EFCA6 /* UINavigationBar+CustomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+CustomImage.h"; path = "Classes/UINavigationBar+CustomImage.h"; sourceTree = "<group>"; };
 		09CCA45411875F14008EFCA6 /* UINavigationBar+CustomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+CustomImage.m"; path = "Classes/UINavigationBar+CustomImage.m"; sourceTree = "<group>"; };
 		09CCA45611875FBF008EFCA6 /* awardback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = awardback.jpg; sourceTree = "<group>"; };
@@ -185,17 +218,40 @@
 				1D3623240D0F684500981E51 /* UrzasFactoryAppDelegate.h */,
 				1D3623250D0F684500981E51 /* UrzasFactoryAppDelegate.m */,
 				09CCA13C118694A5008EFCA6 /* LibraryPortraitViewController.h */,
-				09CCA13D118694A5008EFCA6 /* LibraryPortraitViewController.m */,
+				093547F9119E828A00E68A55 /* LibraryPortraitViewController.m */,
 				09CCA0E111868F87008EFCA6 /* LibraryLandscapeViewController.h */,
 				09CCA0E211868F87008EFCA6 /* LibraryLandscapeViewController.m */,
 				09CCA52211876C47008EFCA6 /* CreditsViewController.h */,
+				09CCA52311876C47008EFCA6 /* CreditsViewController.m */,
 				5B37B74F1188ECA0003884A3 /* CardViewController.h */,
 				5B37B7501188ECA0003884A3 /* CardViewController.m */,
-				09CCA52311876C47008EFCA6 /* CreditsViewController.m */,
 				09B355E2118E92D1001F075C /* DeckViewController.h */,
 				09B355E3118E92D1001F075C /* DeckViewController.m */,
+				093540DA119B890700E68A55 /* FilterViewController.h */,
+				093540DB119B890700E68A55 /* FilterViewController.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		093540EC119BE38E00E68A55 /* ManaIcons */ = {
+			isa = PBXGroup;
+			children = (
+				093540ED119BE3A000E68A55 /* ForestBright.png */,
+				093540EE119BE3A000E68A55 /* ForestShaded.png */,
+				093540EF119BE3A000E68A55 /* IslandBright.png */,
+				093540F0119BE3A000E68A55 /* IslandShaded.png */,
+				093540F1119BE3A000E68A55 /* LandBright.png */,
+				093540F2119BE3A000E68A55 /* LandShaded.png */,
+				093540F3119BE3A000E68A55 /* MountainBright.png */,
+				093540F4119BE3A000E68A55 /* MountainShaded.png */,
+				093540F5119BE3A000E68A55 /* OtherBright.png */,
+				093540F6119BE3A000E68A55 /* OtherShaded.png */,
+				093540F7119BE3A000E68A55 /* PlainsBright.png */,
+				093540F8119BE3A000E68A55 /* PlainsShaded.png */,
+				093540F9119BE3A000E68A55 /* SwampBright.png */,
+				093540FA119BE3A000E68A55 /* SwampShaded.png */,
+			);
+			name = ManaIcons;
 			sourceTree = "<group>";
 		};
 		09CCA0A911868E0F008EFCA6 /* OpenFlow */ = {
@@ -273,6 +329,7 @@
 				09CCA09A11868BC1008EFCA6 /* LibraryPortraitView.xib */,
 				09CCA0DE11868F23008EFCA6 /* LibraryLandscapeView.xib */,
 				09CCA52411876C47008EFCA6 /* CreditsViewController.xib */,
+				093540DC119B890700E68A55 /* FilterViewController.xib */,
 				09B35678118FF6CD001F075C /* DeckView.xib */,
 			);
 			name = Resources;
@@ -293,6 +350,7 @@
 		5B05D42C1136FD620011D7F3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				093540EC119BE38E00E68A55 /* ManaIcons */,
 				09B35742119233EB001F075C /* contentBoard.png */,
 				09B356C2119001F0001F075C /* deckContent.png */,
 				5B37B495118837B3003884A3 /* defaultCard.jpg */,
@@ -414,6 +472,21 @@
 				09B35679118FF6CD001F075C /* DeckView.xib in Resources */,
 				09B356C3119001F0001F075C /* deckContent.png in Resources */,
 				09B35743119233EB001F075C /* contentBoard.png in Resources */,
+				093540DE119B890700E68A55 /* FilterViewController.xib in Resources */,
+				093540FB119BE3A000E68A55 /* ForestBright.png in Resources */,
+				093540FC119BE3A000E68A55 /* ForestShaded.png in Resources */,
+				093540FD119BE3A000E68A55 /* IslandBright.png in Resources */,
+				093540FE119BE3A000E68A55 /* IslandShaded.png in Resources */,
+				093540FF119BE3A000E68A55 /* LandBright.png in Resources */,
+				09354100119BE3A000E68A55 /* LandShaded.png in Resources */,
+				09354101119BE3A000E68A55 /* MountainBright.png in Resources */,
+				09354102119BE3A000E68A55 /* MountainShaded.png in Resources */,
+				09354103119BE3A000E68A55 /* OtherBright.png in Resources */,
+				09354104119BE3A000E68A55 /* OtherShaded.png in Resources */,
+				09354105119BE3A000E68A55 /* PlainsBright.png in Resources */,
+				09354106119BE3A000E68A55 /* PlainsShaded.png in Resources */,
+				09354107119BE3A000E68A55 /* SwampBright.png in Resources */,
+				09354108119BE3A000E68A55 /* SwampShaded.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +510,6 @@
 				09CCA0E311868F87008EFCA6 /* LibraryLandscapeViewController.m in Sources */,
 				09CCA12E11869322008EFCA6 /* AFGetImageOperation.m in Sources */,
 				09CCA1311186933C008EFCA6 /* UIImageExtras.m in Sources */,
-				09CCA13E118694A5008EFCA6 /* LibraryPortraitViewController.m in Sources */,
 				09CCA45511875F14008EFCA6 /* UINavigationBar+CustomImage.m in Sources */,
 				09CCA52511876C47008EFCA6 /* CreditsViewController.m in Sources */,
 				09CCA67911879A3F008EFCA6 /* DataController.m in Sources */,
@@ -453,6 +525,8 @@
 				5B543674119B76E2007DE23D /* ManaItem.m in Sources */,
 				5B543675119B76E2007DE23D /* Mana.m in Sources */,
 				5B543676119B76E2007DE23D /* CardItem.m in Sources */,
+				093540DD119B890700E68A55 /* FilterViewController.m in Sources */,
+				093547FA119E828A00E68A55 /* LibraryPortraitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
